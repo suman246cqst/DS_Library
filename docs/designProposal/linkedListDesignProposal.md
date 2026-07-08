@@ -425,3 +425,265 @@ The copy constructor performs a **deep copy** of the source list. Instead of cop
 The copy assignment operator first releases the memory currently owned by the destination list. It then performs a deep copy of the source list. It should also handle self-assignment safely. This prevents shallow copying, dangling pointers, memory leaks, and double deletion.
 
 ---
+
+# Section 3: Complexity Estimates
+
+The following table summarizes the time complexity of each public member function.
+
+| Function | Best Case | Average Case | Worst Case | Reason |
+|---|---:|---:|---:|---|
+| `push_front()` | `O(1)` | `O(1)` | `O(1)` | Only updates the new node and head pointer. |
+| `push_back()` | `O(1)` | `O(n)` | `O(n)` | Traverses to the last node unless the list is empty. |
+| `insertAtIndex()` | `O(1)` | `O(n)` | `O(n)` | Boundary insertion is constant; middle insertion requires traversal. |
+| `pop_front()` | `O(1)` | `O(1)` | `O(1)` | Only updates the head pointer. |
+| `pop_back()` | `O(1)` | `O(n)` | `O(n)` | Traverses to the second-last node unless only one node exists. |
+| `deleteAtIndex()` | `O(1)` | `O(n)` | `O(n)` | Boundary deletion is constant; middle deletion requires traversal. |
+| `get()` | `O(1)` | `O(n)` | `O(n)` | Traverses from the head to the required index. |
+| `search()` | `O(1)` | `O(n)` | `O(n)` | Checks nodes sequentially until a match is found. |
+| `traverse()` | `O(n)` | `O(n)` | `O(n)` | Visits every node once. |
+| `getSize()` | `O(1)` | `O(1)` | `O(1)` | Directly returns the stored size value. |
+
+## Complexity Analysis
+
+The linked list provides efficient insertion and deletion at the beginning because only the head pointer needs to be updated. However, operations at the end or at a specific index may require traversal because a singly linked list does not provide direct access to arbitrary positions.
+
+Accessing an element by index takes `O(n)` time because the list must be traversed from the head node. Searching also takes `O(n)` in the average and worst cases because each node may need to be checked.
+
+Maintaining the `size` variable allows `getSize()` to run in `O(1)` time.
+
+---
+
+# Section 4: Design Decisions
+
+This section explains the major design decisions taken during the implementation of the Linked List. For every important design choice, alternative approaches were considered before selecting the most appropriate one. The objective was to build a generic, reusable, memory-efficient, and easy-to-maintain data structure.
+
+---
+
+## 1. Generic Programming Using Templates
+
+### Selected Design
+
+The Linked List is implemented using a **class template** (`template<typename T>`).
+
+### Alternative Considered
+
+Creating separate implementations for every data type, such as:
+
+- `LinkedList<int>`
+- `LinkedList<float>`
+- `LinkedList<string>`
+
+### Reason for Rejection
+
+Maintaining separate implementations would introduce significant code duplication. Every modification or bug fix would have to be repeated for each data type, increasing development and maintenance effort.
+
+### Reason for Selection
+
+Templates allow a single implementation to work with any data type while preserving compile-time type safety. This improves code reusability, maintainability, and scalability without sacrificing performance.
+
+---
+
+## 2. Separate Node Class
+
+### Selected Design
+
+Each element of the linked list is represented by an independent `Node<T>` object.
+
+### Alternative Considered
+
+Embedding node-related logic directly inside the `LinkedList` class without a dedicated node representation.
+
+### Reason for Rejection
+
+Combining storage and list management responsibilities would reduce modularity and make the implementation more difficult to understand and maintain.
+
+### Reason for Selection
+
+Separating the `Node` class from the `LinkedList` class follows the **Single Responsibility Principle (SRP)**. Each node stores data and the link to the next node, while the linked list manages insertion, deletion, traversal, and other operations.
+
+---
+
+## 3. Singly Linked List over Doubly Linked List
+
+### Selected Design
+
+A **Singly Linked List** was chosen for this implementation.
+
+### Alternative Considered
+
+A **Doubly Linked List**, where every node stores both `next` and `previous` pointers.
+
+### Reason for Rejection
+
+Although a doubly linked list supports reverse traversal and simplifies certain deletion operations, it requires an additional pointer in every node. This increases memory consumption and makes insertion and deletion logic more complex because both forward and backward links must always remain consistent.
+
+The objectives of this project do not require reverse traversal or bidirectional navigation. Therefore, the additional memory overhead and implementation complexity cannot be justified.
+
+### Reason for Selection
+
+A singly linked list satisfies all project requirements while maintaining a simpler design. Since each node stores only one pointer, the implementation is easier to understand, requires less memory, and reduces the possibility of pointer-related programming errors.
+
+---
+
+## 4. Dynamic Memory Allocation
+
+### Selected Design
+
+Each node is allocated dynamically whenever a new element is inserted.
+
+### Alternative Considered
+
+Using a fixed-size array to store all elements.
+
+### Reason for Rejection
+
+A fixed-size array requires the maximum size to be decided before execution. Once the array becomes full, no additional elements can be inserted without reallocating the entire structure.
+
+### Reason for Selection
+
+Dynamic allocation allows the linked list to grow and shrink according to runtime requirements. Memory is allocated only when a new node is required and is released immediately after a node is deleted.
+
+If raw memory is allocated using `malloc()`, placement `new` is used to construct C++ objects correctly. During deletion, the object's destructor is explicitly invoked before releasing memory using `free()`.
+
+---
+
+## 5. No Capacity Management
+
+### Selected Design
+
+The linked list does **not** maintain a capacity variable.
+
+### Alternative Considered
+
+Maintaining capacity, resizing policies, and shrinking strategies similar to a Dynamic Array.
+
+### Reason for Rejection
+
+Unlike a dynamic array, linked list nodes are allocated individually instead of inside one contiguous memory block. Consequently, there is no concept of unused capacity.
+
+### Reason for Selection
+
+Each insertion allocates memory only for the required node, and each deletion immediately releases the corresponding memory. This naturally allows the linked list to expand and contract without implementing resizing algorithms.
+
+---
+
+## 6. Maintaining a Size Variable
+
+### Selected Design
+
+The implementation maintains a dedicated integer variable named `size`.
+
+### Alternative Considered
+
+Calculating the size by traversing the linked list whenever `getSize()` is called.
+
+### Reason for Rejection
+
+Computing the size through traversal requires visiting every node, resulting in **O(n)** time complexity.
+
+### Reason for Selection
+
+Updating the `size` variable after every insertion and deletion allows the current number of nodes to be returned in **O(1)** time.
+
+---
+
+## 7. Returning a Reference from `get()`
+
+### Selected Design
+
+The `get()` function returns a reference (`T&`).
+
+### Alternative Considered
+
+Returning the stored value by copy.
+
+### Reason for Rejection
+
+Returning a copy introduces unnecessary copying overhead, particularly for large user-defined objects, and prevents direct modification of the original element.
+
+### Reason for Selection
+
+Returning a reference avoids unnecessary copying and allows efficient access to the original object stored inside the linked list.
+
+---
+
+## 8. Exception Handling
+
+### Selected Design
+
+Standard C++ exceptions are used to report invalid operations.
+
+### Alternative Considered
+
+Returning special values such as `-1`, `NULL`, or boolean flags.
+
+### Reason for Rejection
+
+Special return values may not accurately describe the cause of an error and can easily be ignored by the caller.
+
+### Reason for Selection
+
+Using exceptions separates normal program logic from error-handling logic and provides meaningful information about the failure.
+
+The implementation uses:
+
+- `std::out_of_range` for invalid indexes.
+- `std::underflow_error` when deletion is attempted on an empty list.
+- `std::bad_alloc` if memory allocation fails.
+
+---
+
+## 9. Deep Copy Semantics
+
+### Selected Design
+
+The linked list implements a copy constructor and copy assignment operator that perform a **deep copy**.
+
+### Alternative Considered
+
+Using the compiler-generated shallow copy.
+
+### Reason for Rejection
+
+A shallow copy causes multiple linked lists to share the same nodes. When one object destroys those nodes, the remaining objects contain dangling pointers, leading to undefined behavior and possible double deletion.
+
+### Reason for Selection
+
+Deep copying creates independent nodes for every linked list object, ensuring safe ownership and correct memory management.
+
+---
+
+## 10. Function Reuse
+
+### Selected Design
+
+Common operations are reused instead of duplicating logic.
+
+### Examples
+
+- `insertAtIndex(0, val)` calls `push_front(val)`.
+- `insertAtIndex(size, val)` calls `push_back(val)`.
+- `deleteAtIndex(0)` calls `pop_front()`.
+- `deleteAtIndex(size - 1)` calls `pop_back()`.
+
+### Reason for Selection
+
+Function reuse reduces duplicate code, improves readability, simplifies testing, and ensures that changes made to one operation automatically benefit all functions that depend on it.
+
+---
+
+## 11. Choosing Linked List over Dynamic Array
+
+### Selected Design
+
+A Linked List was selected for implementing this project instead of extending the Dynamic Array.
+
+### Reason for Selection
+
+The linked list provides efficient insertion and deletion without shifting existing elements, making it suitable for applications where structural modifications occur frequently.
+
+### Trade-off
+
+The primary limitation of a linked list is that indexed access requires sequential traversal because nodes are not stored in contiguous memory locations. Therefore, random access is slower than in a Dynamic Array.
+
+This trade-off is acceptable because the primary objective of this implementation is to demonstrate efficient node-based insertion, deletion, and dynamic memory management.
