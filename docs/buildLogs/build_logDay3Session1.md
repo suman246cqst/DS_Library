@@ -1,56 +1,116 @@
 ### Build Log – Session 1
 
-**Project:** Building a Data Structures Library and Redis Lite
-**Module:** HashMap Research and Design Analysis
-**Date:** 08-07-2026
+**Project:** Building a Data Structures Library and Redis Lite  
+**Module:** HashMap Research and Architecture Design  
+**Date:** 08-07-2026  
 **Duration:** 2 Hours
+
+---
 
 ## Objective
 
-The objective of this session was to understand the working principles of the **HashMap** data structure before starting its implementation. The focus was on researching how HashMaps store data, generate hash values, resolve collisions, and identifying the essential components required for designing a generic HashMap. This research would later serve as the foundation for preparing the HashMap Design Proposal.
+The objective of this session was to study the internal working of the **HashMap** data structure and design its overall architecture before implementation. Instead of directly writing code, the focus was placed on understanding how industrial hash-based containers organize data, resolve collisions, manage memory, and maintain efficient lookup performance. The knowledge gained during this session would serve as the foundation for preparing the HashMap Design Proposal and its subsequent implementation.
 
 ---
 
 ## Work Done
 
-### Studying the Fundamentals of HashMap
+### Understanding HashMap Fundamentals
 
-The session began by understanding how a HashMap stores data as **key-value pairs** and how hashing enables fast insertion, retrieval, deletion, and update operations. I studied how a key is converted into a **hash value**, which is then transformed into a valid bucket index using the modulo operation. I also explored how collisions occur when multiple keys map to the same bucket and why **Separate Chaining** is an effective collision resolution technique.
+The session began by studying how a HashMap stores information as **key-value pairs** and performs insertion, retrieval, deletion, and update operations efficiently through hashing.
 
----
+I explored the complete lookup workflow, beginning from receiving a key, generating a hash value, converting the hash value into a valid bucket index using the modulo operation, and finally locating the corresponding bucket for performing the requested operation.
 
-### Researching Hash Value Generation
-
-A major part of the session was spent understanding how hash values are generated for different data types. For primitive numeric types such as `int`, I found that the numeric value itself can be used as the basis for hash generation. For `std::string`, I researched the **Polynomial Rolling Hash** algorithm and learned why it produces a better distribution of hash values than simple character summation.
-
-At this stage, the hashing strategy for primitive data types and strings became clear.
+Special attention was given to understanding why HashMaps provide average-case constant-time complexity and under what circumstances their performance degrades.
 
 ---
 
-### Designing the HashMap Structure
+### Researching Collision Resolution
 
-After understanding the hashing mechanism, I researched how the HashMap should be organized internally. I identified the essential data members required for the implementation, including the bucket array, current size, capacity, load factor, and threshold. I also determined that the bucket table would be implemented using the previously developed **DynamicArray**, while collisions would be handled using the custom **LinkedList** through **Separate Chaining**.
+Since multiple keys may generate the same bucket index, I studied various collision resolution techniques.
 
----
+The following approaches were compared:
 
-### Studying Public Member Functions
+- Separate Chaining
+- Linear Probing
+- Quadratic Probing
+- Double Hashing
 
-I analyzed the functionality of every major public operation that the HashMap should provide. This included understanding how `insert()`, `remove()`, `get()`, `exists()`, `getSize()`, `getLoadFactor()`, and `clear()` work internally, what responsibilities each function has, and how they interact with the hashing mechanism and bucket array.
-
----
-
-### Investigating Initial Design Decisions
-
-Towards the end of the session, I researched appropriate initial configuration values for the HashMap. After comparing different approaches, I concluded that an initial **capacity of 16**, **size of 0**, **load factor of 0.0**, and a **threshold of 0.7** provide a good balance between memory utilization and performance by reducing unnecessary rehashing while maintaining efficient lookup operations.
+After comparing their advantages and limitations, **Separate Chaining** was selected because it integrates naturally with the previously implemented LinkedList, simplifies insertion and deletion, and scales well even when multiple collisions occur within the same bucket.
 
 ---
 
-### Identifying an Open Design Problem
+### Studying Hash Function Design
 
-Although the overall architecture of the HashMap became much clearer, one important problem remained unresolved. While hash generation for primitive data types and strings was straightforward, I could not determine a generic approach for generating hash values for **user-defined classes**. The HashMap cannot automatically identify which data member should represent the logical key of an object. This challenge was noted for further research in the next development session.
+Considerable time was spent understanding how hash values should be generated for different categories of data types.
+
+The research included:
+
+- Primitive numeric types
+- Character types
+- Boolean values
+- Floating point values
+- Strings
+
+For string keys, the **Polynomial Rolling Hash** algorithm was studied in detail to understand how character positions contribute to producing a well-distributed hash value while reducing collisions.
+
+---
+
+### Designing the Internal Architecture
+
+After understanding the hashing mechanism, the internal organization of the HashMap was planned.
+
+The proposed architecture consisted of:
+
+- A **DynamicArray** acting as the bucket table.
+- Each bucket storing a pointer to a **LinkedList**.
+- Each linked list containing **Node<K, V>** objects representing individual key-value pairs.
+
+The relationship between these components was analyzed to ensure modularity and code reuse while leveraging the previously implemented custom data structures.
+
+---
+
+### Planning Core Data Members
+
+The internal state required for managing the HashMap was identified and finalized.
+
+The following members were selected:
+
+- `bucketArray`
+- `size`
+- `capacity`
+- `loadFactor`
+- `threshold`
+
+The purpose of each variable was analyzed along with how it contributes to insertion, deletion, lookup, and automatic resizing.
+
+---
+
+### Initial Configuration Decisions
+
+Several initial configuration values were evaluated before selecting the final configuration.
+
+The following decisions were finalized:
+
+- `size = 0`
+- `capacity = 16`
+- `loadFactor = 0.0`
+- `threshold = 0.7`
+
+Different capacities and threshold values were compared to understand their impact on memory consumption, collision frequency, and rehashing behaviour.
+
+---
+
+### Identifying Design Challenges
+
+Towards the end of the session, one important design challenge was identified.
+
+While designing a generic HashMap using templates, it became clear that generating hash values for **user-defined classes** cannot be automated because the implementation has no way of determining which member uniquely represents an object.
+
+Different approaches were explored, including allowing users to specify the logical key or providing a custom hash function. This issue was documented for further refinement during the design proposal stage.
 
 ---
 
 ## Outcome
 
-By the end of this session, I developed a solid understanding of the HashMap architecture, hashing mechanism, collision handling, required member functions, internal data members, and several key design decisions that would later be documented in the HashMap Design Proposal. However, the problem of supporting hash generation for user-defined data types remained unresolved and became the primary focus for the next session.
+By the end of the session, the complete conceptual architecture of the HashMap had been established. The research covered hashing principles, collision handling, bucket organization, memory considerations, configuration parameters, and generic design challenges. These findings formed the basis for preparing a comprehensive HashMap Design Proposal in the next development session.
