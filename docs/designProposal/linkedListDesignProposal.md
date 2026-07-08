@@ -351,3 +351,77 @@ Since the class maintains a separate `size` variable, this function returns that
 
 ---
 
+# Section 2: Internal Structure
+
+The **Internal Structure** section explains how the `LinkedList` class is implemented internally and how memory is organized during execution.
+
+The linked list is implemented using two class templates:
+
+- **`Node<T>`**: Represents an individual node.
+- **`LinkedList<T>`**: Manages the collection of nodes and provides the public interface.
+
+Each node contains:
+
+- A data member of type `T`, which stores the actual value.
+- A pointer named `next`, which stores the address of the next node.
+
+The `LinkedList` class maintains:
+
+- **`Node<T>* head`**: Points to the first node of the linked list.
+- **`int size`**: Stores the current number of nodes.
+
+Initially, `head` is set to `nullptr`, which means the list is empty. When a new node is inserted, memory is allocated dynamically. Since nodes are allocated independently, linked list elements are not stored in contiguous memory locations.
+
+During deletion, the target node is disconnected from the list, its stored object is destroyed correctly, and its memory is released. Unlike a Dynamic Array, the linked list does not have a capacity variable and does not require a shrinking strategy. Deleting a node directly frees that node's memory.
+
+## Memory Layout
+![Dynamic Array Memory Layout](../Images/LinkedListMemoryLayout.jpeg)
+
+## Template Concept and Generic Type
+
+The linked list is implemented using `template<typename T>`. Here, `T` is a placeholder for the actual data type that will be used when an object is created.
+
+For example:
+
+```cpp
+LinkedList<int> numbers;
+LinkedList<double> prices;
+LinkedList<std::string> names;
+```
+
+This is called **generic programming**. It avoids writing separate linked list classes for different data types. The same code can work with primitive types, Standard Library types, and user-defined classes.
+
+The type `T` is resolved at compile time, so the implementation remains type-safe while still being reusable.
+
+## Object-Oriented Programming Principles Used
+
+The implementation uses the following OOP principles:
+
+- **Encapsulation:** `head` and `size` are private, so users cannot directly modify the internal state.
+- **Abstraction:** Users call functions such as `push_front()`, `insertAtIndex()`, and `deleteAtIndex()` without needing to manage pointers manually.
+- **Modularity:** Each operation is implemented as a separate member function with a clear responsibility.
+- **Code Reuse:** `insertAtIndex()` can reuse `push_front()` and `push_back()` for boundary insertions. `deleteAtIndex()` can reuse `pop_front()` and `pop_back()` for boundary deletions.
+
+Inheritance and polymorphism are not required because this data structure mainly focuses on efficient node management and a clean container interface.
+
+## Rule of Three
+
+Since the linked list manages dynamically allocated memory, it follows the **Rule of Three**:
+
+1. **Destructor**
+2. **Copy Constructor**
+3. **Copy Assignment Operator**
+
+### Destructor
+
+The destructor traverses the entire list, destroys each node, and releases its memory. This prevents memory leaks when the linked list object goes out of scope.
+
+### Copy Constructor
+
+The copy constructor performs a **deep copy** of the source list. Instead of copying node addresses, it creates new nodes for every element. As a result, both linked lists own independent memory.
+
+### Copy Assignment Operator
+
+The copy assignment operator first releases the memory currently owned by the destination list. It then performs a deep copy of the source list. It should also handle self-assignment safely. This prevents shallow copying, dangling pointers, memory leaks, and double deletion.
+
+---
