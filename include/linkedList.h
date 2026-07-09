@@ -27,7 +27,9 @@ public:
     void pop_back();
     void insertAtIndex(int index, const T& val);
     void deleteAtIndex(int index);
-    int search(const T& val);
-    const T& get(int index);
+    int search(const T& val) const;
+    const T& get(int index) const;
+    void traverse() const;
+    int getSize() const;
 };
 #endif

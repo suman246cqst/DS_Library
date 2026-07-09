@@ -115,3 +115,111 @@ void LinkedList<T>::pop_back() {
     free(last);
     size--;
 }
+template<typename T>
+void LinkedList<T>::insertAtIndex(int index, const T& val){
+    if(index<0 || index>size){
+        throw out_of_range("Invalid Index");
+    }
+    if(index==0){
+        push_front(val);
+        return;
+    }
+    if(index==size){
+        push_back(val);
+        return;
+    }
+    Node<T>* temp=head;
+    int k=0;
+    while(k<index-1){
+        temp=temp->next;
+        k++;
+    }
+    Node<T>* newNode=(Node<T>*)malloc(sizeof(Node<T>));
+    if(newNode==nullptr){
+        throw bad_alloc();
+    }
+    new (&newNode->data) T(val);
+    newNode->next=nullptr;
+    newNode->next=temp->next;
+    temp->next=newNode;
+    size++;
+    return;
+}
+
+template<typename T>
+void LinkedList<T>::deleteAtIndex(int index){
+    if(size==0){
+        throw underflow_error("List is empty");
+    }
+    if(index==0){
+        pop_front();
+        return;
+    }
+    if(index==size-1){
+        pop_back();
+        return;
+    }
+    if(index<0 || index>=size){
+        throw out_of_range("Invalid Index");
+    }
+    int k=0;
+    Node<T>* temp=head;
+    while(k<index-1){
+        temp=temp->next;
+        k++;
+    }
+    Node<T>* temp1=temp->next;
+    temp->next=temp1->next;
+    temp1->data.~T();
+    free(temp1);
+    size--;
+}
+
+template<typename T>
+int LinkedList<T>::search(const T& val) const{
+    if(size==0){
+        throw underflow_error("List is empty");
+    }
+    int idx=0;
+    Node<T>* temp=head;
+    while(temp!=nullptr){
+        if(temp->data==val){
+            return idx;
+        }
+        temp=temp->next;
+        idx++;
+    }
+    return -1;
+}
+
+template<typename T>
+const T& LinkedList<T>::get(int index) const{
+    if(size==0){
+        throw underflow_error("List is empty");
+    }
+    if(index<0||index>=size){
+        throw out_of_range("Invalid Index");
+    }
+    int k=0;
+    Node<T>* temp=head;
+    while(k<index){
+        temp=temp->next;
+        k++;
+    }
+    return temp->data;
+}
+
+template<typename T>
+void LinkedList<T>::traverse() const{
+    Node<T>* temp = head;
+    while (temp != nullptr) {
+        cout<<temp->data<<" ";
+        temp = temp->next;
+    }
+    cout << endl;
+}
+
+template<typename T>
+int LinkedList<T>::getSize() const{
+    return size;
+}
