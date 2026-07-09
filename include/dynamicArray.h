@@ -7,19 +7,14 @@
 
 template<typename T>
 class DynamicArray {
-
 private:
-
     int capacity;
     int size;
     T* arr;
-
 public:
-
     DynamicArray();
     ~DynamicArray();
     DynamicArray(const DynamicArray&);
-    T& operator[](int);
     DynamicArray& operator=(const DynamicArray&);
     void push_back(const T&);
     void insertAtIndex(int,const T&);
@@ -30,6 +25,7 @@ public:
     int getCapacity();
     bool isEmpty();
     bool isFull();
+    void print();
 };
 
 #include "dynamicArray.cpp"

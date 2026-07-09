@@ -54,7 +54,6 @@ public:
     ~LinkedList();
     LinkedList(const LinkedList& other);
     LinkedList& operator=(const LinkedList& other);
-
     void push_front(T val);
     void push_back(T val);
     void pop_front();
@@ -410,7 +409,7 @@ Since the linked list manages dynamically allocated memory, it follows the **Rul
 
 1. **Destructor**
 2. **Copy Constructor**
-3. **Copy Assignment Operator**
+3. **Copy Assignment Operator Overloading**
 
 ### Destructor
 
