@@ -1,4 +1,4 @@
-### Build Log – Session 3
+### Build Log – Session 2
 
 **Module:** Linked List Implementation
 **Date:** 10-07-2026
