@@ -16,7 +16,7 @@ int main(){
     cout<<v.getSize()<<endl;
     v.insertAtIndex(5,"hello5");
     v.print();
-    v.deleteAtIndex(6);
+    v.deleteAtIndex(3);
     v.print();
     return 0;
 }
