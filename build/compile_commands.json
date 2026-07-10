@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/suman/Desktop/DS_Library/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles\\main.dir\\includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\main.dir\\main.cpp.obj -c C:\\Users\\suman\\Desktop\\DS_Library\\main.cpp",
+  "file": "C:/Users/suman/Desktop/DS_Library/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.obj"
+}
+]
