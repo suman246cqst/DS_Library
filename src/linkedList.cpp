@@ -223,3 +223,36 @@ template<typename T>
 int LinkedList<T>::getSize() const{
     return size;
 }
+template<typename T>
+Node<T>* LinkedList<T>::getHead(){
+    return head;
+}
+template<typename T>
+void LinkedList<T>::remove(T& val){
+        if(size==0){
+            throw underflow_error("List is empty");
+        }
+        Node<T>* temp=head;
+        if(head->data==val){
+            head=head->next;
+            temp->data.~T();
+            free(temp);
+            size--;
+            return;
+        }
+        while(temp->next!=nullptr && !(temp->next->data==val)){
+            temp=temp->next;
+        }
+        if(temp->next==nullptr){
+            throw runtime_error("Given object is not present in the list");
+        }
+        if(temp->next->data==val){
+            Node<T>* temp1=temp->next;
+            temp->next=temp1->next;
+            temp1->data.~T();
+            free(temp1);
+            size--;
+            return;
+        }
+        throw runtime_error("Given object is not present in the list");
+    }

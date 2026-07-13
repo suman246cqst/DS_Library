@@ -26,6 +26,8 @@ public:
     bool isEmpty();
     bool isFull();
     void print();
+    T& operator[](int index);
+    const T& operator[](int index)const;
 };
 
 #include "dynamicArray.cpp"

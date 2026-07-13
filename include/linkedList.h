@@ -31,5 +31,9 @@ public:
     const T& get(int index) const;
     void traverse() const;
     int getSize() const;
+    Node<T>* getHead();
+    void remove(T& val);
 };
+
+#include "linkedList.cpp"
 #endif

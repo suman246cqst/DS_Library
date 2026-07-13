@@ -154,6 +154,20 @@ bool DynamicArray<T>::isFull(){
     return size==capacity;
 }
 template<typename T>
+T& DynamicArray<T>::operator[](int index){
+    if (index < 0 || index >= size) {
+        throw out_of_range("Invalid index");
+    }
+    return arr[index];
+}
+template<typename T>
+const T& DynamicArray<T>::operator[](int index)const{
+    if (index < 0 || index >= size) {
+        throw out_of_range("Invalid index");
+    }
+    return arr[index];
+}
+template<typename T>
 void DynamicArray<T>::print(){
     for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
