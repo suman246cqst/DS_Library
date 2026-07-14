@@ -3,6 +3,23 @@
 
 #include <string>
 #include <cstdint>
+#include <type_traits>
+#include <utility>
+
+// Checks whether T has:
+// int hashCode() const;
+template<typename, typename = void>
+struct HasHashCode : std::false_type {};
+
+template<typename T>
+struct HasHashCode<
+    T,
+    std::void_t<
+        decltype(std::declval<const T&>().hashCode())
+    >
+> : std::is_convertible<
+        decltype(std::declval<const T&>().hashCode()),
+        int> {};
 
 class HashFunction {
 public:
@@ -17,5 +34,7 @@ public:
     template<typename T>
     int generateHash(const T& obj);
 };
+
 #include "hashFunction.cpp"
+
 #endif

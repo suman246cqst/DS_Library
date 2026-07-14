@@ -165,6 +165,10 @@ void HashMap<K,V>::remove(K& key){
     LinkedList<HashNode<K,V>>* list = bucketArray[bucketIndex];
     HashNode<K,V>temp(key);
     list->remove(temp);
+    if(list->getSize() == 0){
+        delete list;
+        bucketArray[bucketIndex] = nullptr;
+    }
     size--;
     loadfactor=(float)size/capacity;
 }

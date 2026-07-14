@@ -86,7 +86,7 @@ int main() {
     //====================================================
     cout<<"\nTEST 5 : Modify value returned by get()\n";
     int x=100;
-    map.set(k2,x);
+    map.insert(k2,x);
 
     cout<<"Updated value of Two = "<<map.get(k2)<<endl;
 

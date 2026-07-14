@@ -64,6 +64,8 @@ public:
     int search(T val);
     void traverse();
     int getSize();
+    T& getHead();
+    void remove(T& val);
 };
 ```
 
@@ -347,6 +349,67 @@ Since the class maintains a separate `size` variable, this function returns that
 - **Best Case:** `O(1)`
 - **Average Case:** `O(1)`
 - **Worst Case:** `O(1)`
+
+---
+
+---
+
+## `Node<T>* getHead()`
+
+The `getHead()` function returns a pointer to the first node of the linked list.
+
+Unlike `get(int index)`, which returns the value stored in a node, `getHead()` provides direct access to the internal node structure. This function is primarily intended for use by other data structures, such as the HashMap implementation, where traversal of the linked list is required for operations like searching, insertion, deletion, and rehashing.
+
+If the linked list is empty, the function returns `nullptr`.
+
+### Parameter
+
+- **None**
+
+### Return Type
+
+- **`Node<T>*`**: A pointer to the first node of the linked list, or `nullptr` if the list is empty.
+
+### Time Complexity
+
+- **Best Case:** `O(1)`
+- **Average Case:** `O(1)`
+- **Worst Case:** `O(1)`
+
+---
+
+## `void remove(T& val)`
+
+The `remove(T& val)` function removes the **first occurrence** of the specified value from the linked list.
+
+The function first checks whether the list is empty. If the list contains no nodes, an `std::underflow_error` is thrown because no deletion can be performed.
+
+If the head node stores the specified value, the head pointer is updated to the next node. The stored object is explicitly destroyed, the node's memory is released, and the list size is decremented.
+
+Otherwise, the function traverses the linked list until it reaches the node immediately preceding the first matching node. If no matching node exists, a `std::runtime_error` is thrown. When the target node is found, it is removed by updating the previous node's `next` pointer to bypass the target node. The stored object is then destroyed, the node memory is released, and the list size is decremented.
+
+The function removes **only the first matching occurrence** of the specified value. Any subsequent occurrences remain unchanged.
+
+### Parameter
+
+- **`T& val`**: A reference to the value that should be removed from the linked list.
+
+### Return Type
+
+- **`void`**: The function removes the first matching node and does not return a value.
+
+### Exception Conditions
+
+- Throws **`std::underflow_error`** if the linked list is empty.
+- Throws **`std::runtime_error`** if the specified value is not present in the linked list.
+
+### Time Complexity
+
+- **Best Case:** `O(1)` when the matching value is stored in the head node.
+- **Average Case:** `O(n)`
+- **Worst Case:** `O(n)`
+
+Here, **`n`** represents the number of nodes in the linked list.
 
 ---
 
