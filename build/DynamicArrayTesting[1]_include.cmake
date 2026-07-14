@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting[1]_tests.cmake")
+  include("/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting[1]_tests.cmake")
+else()
+  add_test(DynamicArrayTesting_NOT_BUILT DynamicArrayTesting_NOT_BUILT)
+endif()

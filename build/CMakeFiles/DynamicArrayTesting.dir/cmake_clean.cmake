@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/DynamicArrayTesting.dir/link.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayBracket.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayBracket.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayConstructor.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayConstructor.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayCopy.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayCopy.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayCopyAssignment.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayCopyAssignment.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayDelete.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayDelete.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayDestructor.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayDestructor.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayEmpty.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayEmpty.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayFull.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayFull.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayGet.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayGet.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayGetCapacity.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayGetCapacity.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayGetSize.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayGetSize.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayInsert.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayInsert.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayPopBack.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayPopBack.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayPrint.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayPrint.cpp.o.d"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayPushBack.cpp.o"
+  "CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayPushBack.cpp.o.d"
+  "DynamicArrayTesting"
+  "DynamicArrayTesting.pdb"
+  "DynamicArrayTesting[1]_tests.cmake"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/DynamicArrayTesting.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,2541 @@
+Start testing: Jul 14 18:07 UTC
+----------------------------------------------------------
+1/94 Testing: DynamicArrayInsertTest.InsertElementAtMiddle
+1/94 Test: DynamicArrayInsertTest.InsertElementAtMiddle
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayInsertTest.InsertElementAtMiddle" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayInsertTest.InsertElementAtMiddle" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayInsertTest.InsertElementAtMiddle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayInsertTest
+[ RUN      ] DynamicArrayInsertTest.InsertElementAtMiddle
+[       OK ] DynamicArrayInsertTest.InsertElementAtMiddle (0 ms)
+[----------] 1 test from DynamicArrayInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayInsertTest.InsertElementAtMiddle" end time: Jul 14 18:07 UTC
+"DynamicArrayInsertTest.InsertElementAtMiddle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/94 Testing: DynamicArrayInsertTest.InsertElementAtBeginning
+2/94 Test: DynamicArrayInsertTest.InsertElementAtBeginning
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayInsertTest.InsertElementAtBeginning" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayInsertTest.InsertElementAtBeginning" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayInsertTest.InsertElementAtBeginning
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayInsertTest
+[ RUN      ] DynamicArrayInsertTest.InsertElementAtBeginning
+[       OK ] DynamicArrayInsertTest.InsertElementAtBeginning (0 ms)
+[----------] 1 test from DynamicArrayInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayInsertTest.InsertElementAtBeginning" end time: Jul 14 18:07 UTC
+"DynamicArrayInsertTest.InsertElementAtBeginning" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/94 Testing: DynamicArrayInsertTest.InsertElementAtEnd
+3/94 Test: DynamicArrayInsertTest.InsertElementAtEnd
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayInsertTest.InsertElementAtEnd" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayInsertTest.InsertElementAtEnd" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayInsertTest.InsertElementAtEnd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayInsertTest
+[ RUN      ] DynamicArrayInsertTest.InsertElementAtEnd
+[       OK ] DynamicArrayInsertTest.InsertElementAtEnd (0 ms)
+[----------] 1 test from DynamicArrayInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayInsertTest.InsertElementAtEnd" end time: Jul 14 18:07 UTC
+"DynamicArrayInsertTest.InsertElementAtEnd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/94 Testing: DynamicArrayInsertTest.InsertMultipleElements
+4/94 Test: DynamicArrayInsertTest.InsertMultipleElements
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayInsertTest.InsertMultipleElements" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayInsertTest.InsertMultipleElements" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayInsertTest.InsertMultipleElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayInsertTest
+[ RUN      ] DynamicArrayInsertTest.InsertMultipleElements
+[       OK ] DynamicArrayInsertTest.InsertMultipleElements (0 ms)
+[----------] 1 test from DynamicArrayInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayInsertTest.InsertMultipleElements" end time: Jul 14 18:07 UTC
+"DynamicArrayInsertTest.InsertMultipleElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/94 Testing: DynamicArrayConstructorTest.DefaultConstructorInitialState
+5/94 Test: DynamicArrayConstructorTest.DefaultConstructorInitialState
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayConstructorTest.DefaultConstructorInitialState" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayConstructorTest.DefaultConstructorInitialState" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayConstructorTest.DefaultConstructorInitialState
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayConstructorTest
+[ RUN      ] DynamicArrayConstructorTest.DefaultConstructorInitialState
+[       OK ] DynamicArrayConstructorTest.DefaultConstructorInitialState (0 ms)
+[----------] 1 test from DynamicArrayConstructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayConstructorTest.DefaultConstructorInitialState" end time: Jul 14 18:07 UTC
+"DynamicArrayConstructorTest.DefaultConstructorInitialState" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/94 Testing: DynamicArrayConstructorTest.CanInsertAfterConstruction
+6/94 Test: DynamicArrayConstructorTest.CanInsertAfterConstruction
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayConstructorTest.CanInsertAfterConstruction" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayConstructorTest.CanInsertAfterConstruction" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayConstructorTest.CanInsertAfterConstruction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayConstructorTest
+[ RUN      ] DynamicArrayConstructorTest.CanInsertAfterConstruction
+[       OK ] DynamicArrayConstructorTest.CanInsertAfterConstruction (0 ms)
+[----------] 1 test from DynamicArrayConstructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayConstructorTest.CanInsertAfterConstruction" end time: Jul 14 18:07 UTC
+"DynamicArrayConstructorTest.CanInsertAfterConstruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/94 Testing: DynamicArrayConstructorTest.CapacityGrowthAfterConstruction
+7/94 Test: DynamicArrayConstructorTest.CapacityGrowthAfterConstruction
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayConstructorTest.CapacityGrowthAfterConstruction" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayConstructorTest.CapacityGrowthAfterConstruction" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayConstructorTest.CapacityGrowthAfterConstruction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayConstructorTest
+[ RUN      ] DynamicArrayConstructorTest.CapacityGrowthAfterConstruction
+[       OK ] DynamicArrayConstructorTest.CapacityGrowthAfterConstruction (0 ms)
+[----------] 1 test from DynamicArrayConstructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayConstructorTest.CapacityGrowthAfterConstruction" end time: Jul 14 18:07 UTC
+"DynamicArrayConstructorTest.CapacityGrowthAfterConstruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/94 Testing: DynamicArrayConstructorTest.MultipleObjectsHaveIndependentMemory
+8/94 Test: DynamicArrayConstructorTest.MultipleObjectsHaveIndependentMemory
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayConstructorTest.MultipleObjectsHaveIndependentMemory" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayConstructorTest.MultipleObjectsHaveIndependentMemory" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayConstructorTest.MultipleObjectsHaveIndependentMemory
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayConstructorTest
+[ RUN      ] DynamicArrayConstructorTest.MultipleObjectsHaveIndependentMemory
+[       OK ] DynamicArrayConstructorTest.MultipleObjectsHaveIndependentMemory (0 ms)
+[----------] 1 test from DynamicArrayConstructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayConstructorTest.MultipleObjectsHaveIndependentMemory" end time: Jul 14 18:07 UTC
+"DynamicArrayConstructorTest.MultipleObjectsHaveIndependentMemory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/94 Testing: DynamicArrayConstructorTest.WorksWithStringType
+9/94 Test: DynamicArrayConstructorTest.WorksWithStringType
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayConstructorTest.WorksWithStringType" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayConstructorTest.WorksWithStringType" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayConstructorTest.WorksWithStringType
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayConstructorTest
+[ RUN      ] DynamicArrayConstructorTest.WorksWithStringType
+[       OK ] DynamicArrayConstructorTest.WorksWithStringType (0 ms)
+[----------] 1 test from DynamicArrayConstructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayConstructorTest.WorksWithStringType" end time: Jul 14 18:07 UTC
+"DynamicArrayConstructorTest.WorksWithStringType" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/94 Testing: DynamicArrayConstructorTest.WorksWithUserDefinedType
+10/94 Test: DynamicArrayConstructorTest.WorksWithUserDefinedType
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayConstructorTest.WorksWithUserDefinedType" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayConstructorTest.WorksWithUserDefinedType" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayConstructorTest.WorksWithUserDefinedType
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayConstructorTest
+[ RUN      ] DynamicArrayConstructorTest.WorksWithUserDefinedType
+[       OK ] DynamicArrayConstructorTest.WorksWithUserDefinedType (0 ms)
+[----------] 1 test from DynamicArrayConstructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayConstructorTest.WorksWithUserDefinedType" end time: Jul 14 18:07 UTC
+"DynamicArrayConstructorTest.WorksWithUserDefinedType" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/94 Testing: DynamicArrayConstructorTest.NewlyCreatedArraysRemainIndependent
+11/94 Test: DynamicArrayConstructorTest.NewlyCreatedArraysRemainIndependent
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayConstructorTest.NewlyCreatedArraysRemainIndependent" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayConstructorTest.NewlyCreatedArraysRemainIndependent" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayConstructorTest.NewlyCreatedArraysRemainIndependent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayConstructorTest
+[ RUN      ] DynamicArrayConstructorTest.NewlyCreatedArraysRemainIndependent
+[       OK ] DynamicArrayConstructorTest.NewlyCreatedArraysRemainIndependent (0 ms)
+[----------] 1 test from DynamicArrayConstructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayConstructorTest.NewlyCreatedArraysRemainIndependent" end time: Jul 14 18:07 UTC
+"DynamicArrayConstructorTest.NewlyCreatedArraysRemainIndependent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/94 Testing: DynamicArrayDestructorTest.EmptyArrayDestructor
+12/94 Test: DynamicArrayDestructorTest.EmptyArrayDestructor
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDestructorTest.EmptyArrayDestructor" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDestructorTest.EmptyArrayDestructor" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDestructorTest.EmptyArrayDestructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDestructorTest
+[ RUN      ] DynamicArrayDestructorTest.EmptyArrayDestructor
+[       OK ] DynamicArrayDestructorTest.EmptyArrayDestructor (0 ms)
+[----------] 1 test from DynamicArrayDestructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDestructorTest.EmptyArrayDestructor" end time: Jul 14 18:07 UTC
+"DynamicArrayDestructorTest.EmptyArrayDestructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/94 Testing: DynamicArrayDestructorTest.CallsDestructorForEveryElement
+13/94 Test: DynamicArrayDestructorTest.CallsDestructorForEveryElement
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDestructorTest.CallsDestructorForEveryElement" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDestructorTest.CallsDestructorForEveryElement" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDestructorTest.CallsDestructorForEveryElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDestructorTest
+[ RUN      ] DynamicArrayDestructorTest.CallsDestructorForEveryElement
+[       OK ] DynamicArrayDestructorTest.CallsDestructorForEveryElement (0 ms)
+[----------] 1 test from DynamicArrayDestructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDestructorTest.CallsDestructorForEveryElement" end time: Jul 14 18:07 UTC
+"DynamicArrayDestructorTest.CallsDestructorForEveryElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/94 Testing: DynamicArrayDestructorTest.HandlesLargeNumberOfElements
+14/94 Test: DynamicArrayDestructorTest.HandlesLargeNumberOfElements
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDestructorTest.HandlesLargeNumberOfElements" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDestructorTest.HandlesLargeNumberOfElements" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDestructorTest.HandlesLargeNumberOfElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDestructorTest
+[ RUN      ] DynamicArrayDestructorTest.HandlesLargeNumberOfElements
+[       OK ] DynamicArrayDestructorTest.HandlesLargeNumberOfElements (0 ms)
+[----------] 1 test from DynamicArrayDestructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDestructorTest.HandlesLargeNumberOfElements" end time: Jul 14 18:07 UTC
+"DynamicArrayDestructorTest.HandlesLargeNumberOfElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/94 Testing: DynamicArrayDestructorTest.DestructorAfterCopyConstructor
+15/94 Test: DynamicArrayDestructorTest.DestructorAfterCopyConstructor
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDestructorTest.DestructorAfterCopyConstructor" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDestructorTest.DestructorAfterCopyConstructor" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDestructorTest.DestructorAfterCopyConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDestructorTest
+[ RUN      ] DynamicArrayDestructorTest.DestructorAfterCopyConstructor
+[       OK ] DynamicArrayDestructorTest.DestructorAfterCopyConstructor (0 ms)
+[----------] 1 test from DynamicArrayDestructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDestructorTest.DestructorAfterCopyConstructor" end time: Jul 14 18:07 UTC
+"DynamicArrayDestructorTest.DestructorAfterCopyConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/94 Testing: DynamicArrayDestructorTest.DestructorAfterAssignment
+16/94 Test: DynamicArrayDestructorTest.DestructorAfterAssignment
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDestructorTest.DestructorAfterAssignment" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDestructorTest.DestructorAfterAssignment" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDestructorTest.DestructorAfterAssignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDestructorTest
+[ RUN      ] DynamicArrayDestructorTest.DestructorAfterAssignment
+[       OK ] DynamicArrayDestructorTest.DestructorAfterAssignment (0 ms)
+[----------] 1 test from DynamicArrayDestructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDestructorTest.DestructorAfterAssignment" end time: Jul 14 18:07 UTC
+"DynamicArrayDestructorTest.DestructorAfterAssignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/94 Testing: DynamicArrayDestructorTest.MultipleObjectsDestroySafely
+17/94 Test: DynamicArrayDestructorTest.MultipleObjectsDestroySafely
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDestructorTest.MultipleObjectsDestroySafely" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDestructorTest.MultipleObjectsDestroySafely" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDestructorTest.MultipleObjectsDestroySafely
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDestructorTest
+[ RUN      ] DynamicArrayDestructorTest.MultipleObjectsDestroySafely
+[       OK ] DynamicArrayDestructorTest.MultipleObjectsDestroySafely (0 ms)
+[----------] 1 test from DynamicArrayDestructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDestructorTest.MultipleObjectsDestroySafely" end time: Jul 14 18:07 UTC
+"DynamicArrayDestructorTest.MultipleObjectsDestroySafely" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/94 Testing: DynamicArrayPushBackTest.InsertSingleElement
+18/94 Test: DynamicArrayPushBackTest.InsertSingleElement
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.InsertSingleElement" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.InsertSingleElement" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.InsertSingleElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.InsertSingleElement
+[       OK ] DynamicArrayPushBackTest.InsertSingleElement (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.InsertSingleElement" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.InsertSingleElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/94 Testing: DynamicArrayPushBackTest.InsertMultipleElements
+19/94 Test: DynamicArrayPushBackTest.InsertMultipleElements
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.InsertMultipleElements" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.InsertMultipleElements" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.InsertMultipleElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.InsertMultipleElements
+[       OK ] DynamicArrayPushBackTest.InsertMultipleElements (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.InsertMultipleElements" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.InsertMultipleElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/94 Testing: DynamicArrayPushBackTest.CapacityRemainsSameWhenNotFull
+20/94 Test: DynamicArrayPushBackTest.CapacityRemainsSameWhenNotFull
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.CapacityRemainsSameWhenNotFull" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.CapacityRemainsSameWhenNotFull" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.CapacityRemainsSameWhenNotFull
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.CapacityRemainsSameWhenNotFull
+[       OK ] DynamicArrayPushBackTest.CapacityRemainsSameWhenNotFull (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.CapacityRemainsSameWhenNotFull" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.CapacityRemainsSameWhenNotFull" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/94 Testing: DynamicArrayPushBackTest.CapacityDoublesFromOneToTwo
+21/94 Test: DynamicArrayPushBackTest.CapacityDoublesFromOneToTwo
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.CapacityDoublesFromOneToTwo" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.CapacityDoublesFromOneToTwo" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.CapacityDoublesFromOneToTwo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.CapacityDoublesFromOneToTwo
+[       OK ] DynamicArrayPushBackTest.CapacityDoublesFromOneToTwo (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.CapacityDoublesFromOneToTwo" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.CapacityDoublesFromOneToTwo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/94 Testing: DynamicArrayPushBackTest.CapacityDoublesFromTwoToFour
+22/94 Test: DynamicArrayPushBackTest.CapacityDoublesFromTwoToFour
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.CapacityDoublesFromTwoToFour" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.CapacityDoublesFromTwoToFour" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.CapacityDoublesFromTwoToFour
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.CapacityDoublesFromTwoToFour
+[       OK ] DynamicArrayPushBackTest.CapacityDoublesFromTwoToFour (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.CapacityDoublesFromTwoToFour" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.CapacityDoublesFromTwoToFour" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/94 Testing: DynamicArrayPushBackTest.CapacityDoublesFromFourToEight
+23/94 Test: DynamicArrayPushBackTest.CapacityDoublesFromFourToEight
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.CapacityDoublesFromFourToEight" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.CapacityDoublesFromFourToEight" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.CapacityDoublesFromFourToEight
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.CapacityDoublesFromFourToEight
+[       OK ] DynamicArrayPushBackTest.CapacityDoublesFromFourToEight (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.CapacityDoublesFromFourToEight" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.CapacityDoublesFromFourToEight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/94 Testing: DynamicArrayPushBackTest.CapacityGrowsCorrectlyForManyInsertions
+24/94 Test: DynamicArrayPushBackTest.CapacityGrowsCorrectlyForManyInsertions
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.CapacityGrowsCorrectlyForManyInsertions" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.CapacityGrowsCorrectlyForManyInsertions" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.CapacityGrowsCorrectlyForManyInsertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.CapacityGrowsCorrectlyForManyInsertions
+[       OK ] DynamicArrayPushBackTest.CapacityGrowsCorrectlyForManyInsertions (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.CapacityGrowsCorrectlyForManyInsertions" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.CapacityGrowsCorrectlyForManyInsertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/94 Testing: DynamicArrayPushBackTest.ElementsRemainInInsertionOrder
+25/94 Test: DynamicArrayPushBackTest.ElementsRemainInInsertionOrder
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.ElementsRemainInInsertionOrder" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.ElementsRemainInInsertionOrder" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.ElementsRemainInInsertionOrder
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.ElementsRemainInInsertionOrder
+[       OK ] DynamicArrayPushBackTest.ElementsRemainInInsertionOrder (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.ElementsRemainInInsertionOrder" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.ElementsRemainInInsertionOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/94 Testing: DynamicArrayPushBackTest.ExistingElementsRemainAfterResize
+26/94 Test: DynamicArrayPushBackTest.ExistingElementsRemainAfterResize
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.ExistingElementsRemainAfterResize" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.ExistingElementsRemainAfterResize" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.ExistingElementsRemainAfterResize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.ExistingElementsRemainAfterResize
+[       OK ] DynamicArrayPushBackTest.ExistingElementsRemainAfterResize (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.ExistingElementsRemainAfterResize" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.ExistingElementsRemainAfterResize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/94 Testing: DynamicArrayPushBackTest.MultipleResizesPreserveData
+27/94 Test: DynamicArrayPushBackTest.MultipleResizesPreserveData
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.MultipleResizesPreserveData" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.MultipleResizesPreserveData" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.MultipleResizesPreserveData
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.MultipleResizesPreserveData
+[       OK ] DynamicArrayPushBackTest.MultipleResizesPreserveData (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.MultipleResizesPreserveData" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.MultipleResizesPreserveData" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/94 Testing: DynamicArrayPushBackTest.PushBackString
+28/94 Test: DynamicArrayPushBackTest.PushBackString
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.PushBackString" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.PushBackString" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.PushBackString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.PushBackString
+[       OK ] DynamicArrayPushBackTest.PushBackString (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.PushBackString" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.PushBackString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/94 Testing: DynamicArrayPushBackTest.PushBackCharacter
+29/94 Test: DynamicArrayPushBackTest.PushBackCharacter
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.PushBackCharacter" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.PushBackCharacter" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.PushBackCharacter
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.PushBackCharacter
+[       OK ] DynamicArrayPushBackTest.PushBackCharacter (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.PushBackCharacter" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.PushBackCharacter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/94 Testing: DynamicArrayPushBackTest.PushBackDouble
+30/94 Test: DynamicArrayPushBackTest.PushBackDouble
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.PushBackDouble" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.PushBackDouble" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.PushBackDouble
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.PushBackDouble
+[       OK ] DynamicArrayPushBackTest.PushBackDouble (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.PushBackDouble" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.PushBackDouble" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/94 Testing: DynamicArrayPushBackTest.ArrayIsNotEmptyAfterInsertion
+31/94 Test: DynamicArrayPushBackTest.ArrayIsNotEmptyAfterInsertion
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.ArrayIsNotEmptyAfterInsertion" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.ArrayIsNotEmptyAfterInsertion" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.ArrayIsNotEmptyAfterInsertion
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.ArrayIsNotEmptyAfterInsertion
+[       OK ] DynamicArrayPushBackTest.ArrayIsNotEmptyAfterInsertion (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.ArrayIsNotEmptyAfterInsertion" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.ArrayIsNotEmptyAfterInsertion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/94 Testing: DynamicArrayPushBackTest.ArrayBecomesFullAfterFirstInsertion
+32/94 Test: DynamicArrayPushBackTest.ArrayBecomesFullAfterFirstInsertion
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.ArrayBecomesFullAfterFirstInsertion" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.ArrayBecomesFullAfterFirstInsertion" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.ArrayBecomesFullAfterFirstInsertion
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.ArrayBecomesFullAfterFirstInsertion
+[       OK ] DynamicArrayPushBackTest.ArrayBecomesFullAfterFirstInsertion (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.ArrayBecomesFullAfterFirstInsertion" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.ArrayBecomesFullAfterFirstInsertion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/94 Testing: DynamicArrayPushBackTest.ArrayRemainsFullAfterAutomaticResize
+33/94 Test: DynamicArrayPushBackTest.ArrayRemainsFullAfterAutomaticResize
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.ArrayRemainsFullAfterAutomaticResize" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.ArrayRemainsFullAfterAutomaticResize" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.ArrayRemainsFullAfterAutomaticResize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.ArrayRemainsFullAfterAutomaticResize
+[       OK ] DynamicArrayPushBackTest.ArrayRemainsFullAfterAutomaticResize (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.ArrayRemainsFullAfterAutomaticResize" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.ArrayRemainsFullAfterAutomaticResize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/94 Testing: DynamicArrayPushBackTest.PushBackIntegerLimits
+34/94 Test: DynamicArrayPushBackTest.PushBackIntegerLimits
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.PushBackIntegerLimits" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.PushBackIntegerLimits" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.PushBackIntegerLimits
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.PushBackIntegerLimits
+[       OK ] DynamicArrayPushBackTest.PushBackIntegerLimits (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.PushBackIntegerLimits" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.PushBackIntegerLimits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/94 Testing: DynamicArrayPushBackTest.PushBackDuplicateValues
+35/94 Test: DynamicArrayPushBackTest.PushBackDuplicateValues
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.PushBackDuplicateValues" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.PushBackDuplicateValues" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.PushBackDuplicateValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.PushBackDuplicateValues
+[       OK ] DynamicArrayPushBackTest.PushBackDuplicateValues (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.PushBackDuplicateValues" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.PushBackDuplicateValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/94 Testing: DynamicArrayPushBackTest.PushBackNegativeValues
+36/94 Test: DynamicArrayPushBackTest.PushBackNegativeValues
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPushBackTest.PushBackNegativeValues" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPushBackTest.PushBackNegativeValues" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.PushBackNegativeValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.PushBackNegativeValues
+[       OK ] DynamicArrayPushBackTest.PushBackNegativeValues (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.PushBackNegativeValues" end time: Jul 14 18:07 UTC
+"DynamicArrayPushBackTest.PushBackNegativeValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/94 Testing: DynamicArrayPopBackTest.PopSingleElement
+37/94 Test: DynamicArrayPopBackTest.PopSingleElement
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPopBackTest.PopSingleElement" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPopBackTest.PopSingleElement" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.PopSingleElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.PopSingleElement
+[       OK ] DynamicArrayPopBackTest.PopSingleElement (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.PopSingleElement" end time: Jul 14 18:07 UTC
+"DynamicArrayPopBackTest.PopSingleElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/94 Testing: DynamicArrayPopBackTest.PopLastElementFromMultipleElements
+38/94 Test: DynamicArrayPopBackTest.PopLastElementFromMultipleElements
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPopBackTest.PopLastElementFromMultipleElements" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPopBackTest.PopLastElementFromMultipleElements" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.PopLastElementFromMultipleElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.PopLastElementFromMultipleElements
+[       OK ] DynamicArrayPopBackTest.PopLastElementFromMultipleElements (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.PopLastElementFromMultipleElements" end time: Jul 14 18:07 UTC
+"DynamicArrayPopBackTest.PopLastElementFromMultipleElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/94 Testing: DynamicArrayPopBackTest.PopElementsOneByOne
+39/94 Test: DynamicArrayPopBackTest.PopElementsOneByOne
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPopBackTest.PopElementsOneByOne" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPopBackTest.PopElementsOneByOne" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.PopElementsOneByOne
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.PopElementsOneByOne
+[       OK ] DynamicArrayPopBackTest.PopElementsOneByOne (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.PopElementsOneByOne" end time: Jul 14 18:07 UTC
+"DynamicArrayPopBackTest.PopElementsOneByOne" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/94 Testing: DynamicArrayPopBackTest.PopUntilEmpty
+40/94 Test: DynamicArrayPopBackTest.PopUntilEmpty
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPopBackTest.PopUntilEmpty" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPopBackTest.PopUntilEmpty" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.PopUntilEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.PopUntilEmpty
+[       OK ] DynamicArrayPopBackTest.PopUntilEmpty (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.PopUntilEmpty" end time: Jul 14 18:07 UTC
+"DynamicArrayPopBackTest.PopUntilEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/94 Testing: DynamicArrayPopBackTest.PopFromEmptyArrayThrows
+41/94 Test: DynamicArrayPopBackTest.PopFromEmptyArrayThrows
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPopBackTest.PopFromEmptyArrayThrows" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPopBackTest.PopFromEmptyArrayThrows" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.PopFromEmptyArrayThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.PopFromEmptyArrayThrows
+[       OK ] DynamicArrayPopBackTest.PopFromEmptyArrayThrows (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.PopFromEmptyArrayThrows" end time: Jul 14 18:07 UTC
+"DynamicArrayPopBackTest.PopFromEmptyArrayThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/94 Testing: DynamicArrayPopBackTest.SizeDecreasesByOne
+42/94 Test: DynamicArrayPopBackTest.SizeDecreasesByOne
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPopBackTest.SizeDecreasesByOne" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPopBackTest.SizeDecreasesByOne" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.SizeDecreasesByOne
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.SizeDecreasesByOne
+[       OK ] DynamicArrayPopBackTest.SizeDecreasesByOne (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.SizeDecreasesByOne" end time: Jul 14 18:07 UTC
+"DynamicArrayPopBackTest.SizeDecreasesByOne" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/94 Testing: DynamicArrayPopBackTest.CapacityDoesNotShrink
+43/94 Test: DynamicArrayPopBackTest.CapacityDoesNotShrink
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPopBackTest.CapacityDoesNotShrink" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPopBackTest.CapacityDoesNotShrink" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.CapacityDoesNotShrink
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.CapacityDoesNotShrink
+[       OK ] DynamicArrayPopBackTest.CapacityDoesNotShrink (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.CapacityDoesNotShrink" end time: Jul 14 18:07 UTC
+"DynamicArrayPopBackTest.CapacityDoesNotShrink" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/94 Testing: DynamicArrayPopBackTest.PopAfterMultipleResizes
+44/94 Test: DynamicArrayPopBackTest.PopAfterMultipleResizes
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPopBackTest.PopAfterMultipleResizes" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPopBackTest.PopAfterMultipleResizes" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.PopAfterMultipleResizes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.PopAfterMultipleResizes
+[       OK ] DynamicArrayPopBackTest.PopAfterMultipleResizes (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.PopAfterMultipleResizes" end time: Jul 14 18:07 UTC
+"DynamicArrayPopBackTest.PopAfterMultipleResizes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/94 Testing: DynamicArrayPopBackTest.WorksWithString
+45/94 Test: DynamicArrayPopBackTest.WorksWithString
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPopBackTest.WorksWithString" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPopBackTest.WorksWithString" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.WorksWithString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.WorksWithString
+[       OK ] DynamicArrayPopBackTest.WorksWithString (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.WorksWithString" end time: Jul 14 18:07 UTC
+"DynamicArrayPopBackTest.WorksWithString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/94 Testing: DynamicArrayPopBackTest.WorksWithCharacter
+46/94 Test: DynamicArrayPopBackTest.WorksWithCharacter
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPopBackTest.WorksWithCharacter" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPopBackTest.WorksWithCharacter" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.WorksWithCharacter
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.WorksWithCharacter
+[       OK ] DynamicArrayPopBackTest.WorksWithCharacter (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.WorksWithCharacter" end time: Jul 14 18:07 UTC
+"DynamicArrayPopBackTest.WorksWithCharacter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/94 Testing: DynamicArrayPopBackTest.PopAllElementsAfterLargeInsertion
+47/94 Test: DynamicArrayPopBackTest.PopAllElementsAfterLargeInsertion
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPopBackTest.PopAllElementsAfterLargeInsertion" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPopBackTest.PopAllElementsAfterLargeInsertion" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.PopAllElementsAfterLargeInsertion
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.PopAllElementsAfterLargeInsertion
+[       OK ] DynamicArrayPopBackTest.PopAllElementsAfterLargeInsertion (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.PopAllElementsAfterLargeInsertion" end time: Jul 14 18:07 UTC
+"DynamicArrayPopBackTest.PopAllElementsAfterLargeInsertion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/94 Testing: DynamicArrayPopBackTest.AlternatePushAndPop
+48/94 Test: DynamicArrayPopBackTest.AlternatePushAndPop
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPopBackTest.AlternatePushAndPop" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPopBackTest.AlternatePushAndPop" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.AlternatePushAndPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.AlternatePushAndPop
+[       OK ] DynamicArrayPopBackTest.AlternatePushAndPop (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.AlternatePushAndPop" end time: Jul 14 18:07 UTC
+"DynamicArrayPopBackTest.AlternatePushAndPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/94 Testing: DynamicArrayPopBackTest.LeaveSingleElementAfterMultiplePops
+49/94 Test: DynamicArrayPopBackTest.LeaveSingleElementAfterMultiplePops
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPopBackTest.LeaveSingleElementAfterMultiplePops" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPopBackTest.LeaveSingleElementAfterMultiplePops" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.LeaveSingleElementAfterMultiplePops
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.LeaveSingleElementAfterMultiplePops
+[       OK ] DynamicArrayPopBackTest.LeaveSingleElementAfterMultiplePops (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.LeaveSingleElementAfterMultiplePops" end time: Jul 14 18:07 UTC
+"DynamicArrayPopBackTest.LeaveSingleElementAfterMultiplePops" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/94 Testing: DynamicArrayDeleteAtIndexTest.DeleteAtDifferentPositions
+50/94 Test: DynamicArrayDeleteAtIndexTest.DeleteAtDifferentPositions
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDeleteAtIndexTest.DeleteAtDifferentPositions" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDeleteAtIndexTest.DeleteAtDifferentPositions" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDeleteAtIndexTest.DeleteAtDifferentPositions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDeleteAtIndexTest
+[ RUN      ] DynamicArrayDeleteAtIndexTest.DeleteAtDifferentPositions
+[       OK ] DynamicArrayDeleteAtIndexTest.DeleteAtDifferentPositions (0 ms)
+[----------] 1 test from DynamicArrayDeleteAtIndexTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDeleteAtIndexTest.DeleteAtDifferentPositions" end time: Jul 14 18:07 UTC
+"DynamicArrayDeleteAtIndexTest.DeleteAtDifferentPositions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/94 Testing: DynamicArrayDeleteAtIndexTest.DeleteUntilEmpty
+51/94 Test: DynamicArrayDeleteAtIndexTest.DeleteUntilEmpty
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDeleteAtIndexTest.DeleteUntilEmpty" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDeleteAtIndexTest.DeleteUntilEmpty" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDeleteAtIndexTest.DeleteUntilEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDeleteAtIndexTest
+[ RUN      ] DynamicArrayDeleteAtIndexTest.DeleteUntilEmpty
+[       OK ] DynamicArrayDeleteAtIndexTest.DeleteUntilEmpty (0 ms)
+[----------] 1 test from DynamicArrayDeleteAtIndexTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDeleteAtIndexTest.DeleteUntilEmpty" end time: Jul 14 18:07 UTC
+"DynamicArrayDeleteAtIndexTest.DeleteUntilEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/94 Testing: DynamicArrayDeleteAtIndexTest.DeleteAfterResize
+52/94 Test: DynamicArrayDeleteAtIndexTest.DeleteAfterResize
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDeleteAtIndexTest.DeleteAfterResize" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDeleteAtIndexTest.DeleteAfterResize" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDeleteAtIndexTest.DeleteAfterResize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDeleteAtIndexTest
+[ RUN      ] DynamicArrayDeleteAtIndexTest.DeleteAfterResize
+[       OK ] DynamicArrayDeleteAtIndexTest.DeleteAfterResize (0 ms)
+[----------] 1 test from DynamicArrayDeleteAtIndexTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDeleteAtIndexTest.DeleteAfterResize" end time: Jul 14 18:07 UTC
+"DynamicArrayDeleteAtIndexTest.DeleteAfterResize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/94 Testing: DynamicArrayDeleteAtIndexTest.InvalidIndicesThrowExceptions
+53/94 Test: DynamicArrayDeleteAtIndexTest.InvalidIndicesThrowExceptions
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDeleteAtIndexTest.InvalidIndicesThrowExceptions" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDeleteAtIndexTest.InvalidIndicesThrowExceptions" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDeleteAtIndexTest.InvalidIndicesThrowExceptions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDeleteAtIndexTest
+[ RUN      ] DynamicArrayDeleteAtIndexTest.InvalidIndicesThrowExceptions
+[       OK ] DynamicArrayDeleteAtIndexTest.InvalidIndicesThrowExceptions (0 ms)
+[----------] 1 test from DynamicArrayDeleteAtIndexTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDeleteAtIndexTest.InvalidIndicesThrowExceptions" end time: Jul 14 18:07 UTC
+"DynamicArrayDeleteAtIndexTest.InvalidIndicesThrowExceptions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/94 Testing: DynamicArrayDeleteAtIndexTest.DeleteDuplicateAndNegativeValues
+54/94 Test: DynamicArrayDeleteAtIndexTest.DeleteDuplicateAndNegativeValues
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDeleteAtIndexTest.DeleteDuplicateAndNegativeValues" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDeleteAtIndexTest.DeleteDuplicateAndNegativeValues" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDeleteAtIndexTest.DeleteDuplicateAndNegativeValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDeleteAtIndexTest
+[ RUN      ] DynamicArrayDeleteAtIndexTest.DeleteDuplicateAndNegativeValues
+[       OK ] DynamicArrayDeleteAtIndexTest.DeleteDuplicateAndNegativeValues (0 ms)
+[----------] 1 test from DynamicArrayDeleteAtIndexTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDeleteAtIndexTest.DeleteDuplicateAndNegativeValues" end time: Jul 14 18:07 UTC
+"DynamicArrayDeleteAtIndexTest.DeleteDuplicateAndNegativeValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/94 Testing: DynamicArrayDeleteAtIndexTest.WorksWithString
+55/94 Test: DynamicArrayDeleteAtIndexTest.WorksWithString
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDeleteAtIndexTest.WorksWithString" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDeleteAtIndexTest.WorksWithString" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDeleteAtIndexTest.WorksWithString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDeleteAtIndexTest
+[ RUN      ] DynamicArrayDeleteAtIndexTest.WorksWithString
+[       OK ] DynamicArrayDeleteAtIndexTest.WorksWithString (0 ms)
+[----------] 1 test from DynamicArrayDeleteAtIndexTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDeleteAtIndexTest.WorksWithString" end time: Jul 14 18:07 UTC
+"DynamicArrayDeleteAtIndexTest.WorksWithString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/94 Testing: DynamicArrayDeleteAtIndexTest.WorksWithCustomObject
+56/94 Test: DynamicArrayDeleteAtIndexTest.WorksWithCustomObject
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDeleteAtIndexTest.WorksWithCustomObject" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDeleteAtIndexTest.WorksWithCustomObject" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDeleteAtIndexTest.WorksWithCustomObject
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDeleteAtIndexTest
+[ RUN      ] DynamicArrayDeleteAtIndexTest.WorksWithCustomObject
+[       OK ] DynamicArrayDeleteAtIndexTest.WorksWithCustomObject (0 ms)
+[----------] 1 test from DynamicArrayDeleteAtIndexTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDeleteAtIndexTest.WorksWithCustomObject" end time: Jul 14 18:07 UTC
+"DynamicArrayDeleteAtIndexTest.WorksWithCustomObject" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/94 Testing: DynamicArrayDeleteAtIndexTest.ConsecutiveDeletionsMaintainIntegrity
+57/94 Test: DynamicArrayDeleteAtIndexTest.ConsecutiveDeletionsMaintainIntegrity
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayDeleteAtIndexTest.ConsecutiveDeletionsMaintainIntegrity" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayDeleteAtIndexTest.ConsecutiveDeletionsMaintainIntegrity" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayDeleteAtIndexTest.ConsecutiveDeletionsMaintainIntegrity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayDeleteAtIndexTest
+[ RUN      ] DynamicArrayDeleteAtIndexTest.ConsecutiveDeletionsMaintainIntegrity
+[       OK ] DynamicArrayDeleteAtIndexTest.ConsecutiveDeletionsMaintainIntegrity (0 ms)
+[----------] 1 test from DynamicArrayDeleteAtIndexTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayDeleteAtIndexTest.ConsecutiveDeletionsMaintainIntegrity" end time: Jul 14 18:07 UTC
+"DynamicArrayDeleteAtIndexTest.ConsecutiveDeletionsMaintainIntegrity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/94 Testing: DynamicArrayGetTest.AccessValidIndices
+58/94 Test: DynamicArrayGetTest.AccessValidIndices
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayGetTest.AccessValidIndices" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayGetTest.AccessValidIndices" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayGetTest.AccessValidIndices
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayGetTest
+[ RUN      ] DynamicArrayGetTest.AccessValidIndices
+[       OK ] DynamicArrayGetTest.AccessValidIndices (0 ms)
+[----------] 1 test from DynamicArrayGetTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayGetTest.AccessValidIndices" end time: Jul 14 18:07 UTC
+"DynamicArrayGetTest.AccessValidIndices" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/94 Testing: DynamicArrayGetTest.InvalidIndicesThrowExceptions
+59/94 Test: DynamicArrayGetTest.InvalidIndicesThrowExceptions
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayGetTest.InvalidIndicesThrowExceptions" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayGetTest.InvalidIndicesThrowExceptions" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayGetTest.InvalidIndicesThrowExceptions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayGetTest
+[ RUN      ] DynamicArrayGetTest.InvalidIndicesThrowExceptions
+[       OK ] DynamicArrayGetTest.InvalidIndicesThrowExceptions (0 ms)
+[----------] 1 test from DynamicArrayGetTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayGetTest.InvalidIndicesThrowExceptions" end time: Jul 14 18:07 UTC
+"DynamicArrayGetTest.InvalidIndicesThrowExceptions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/94 Testing: DynamicArrayGetTest.ReturnedReferenceAllowsModification
+60/94 Test: DynamicArrayGetTest.ReturnedReferenceAllowsModification
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayGetTest.ReturnedReferenceAllowsModification" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayGetTest.ReturnedReferenceAllowsModification" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayGetTest.ReturnedReferenceAllowsModification
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayGetTest
+[ RUN      ] DynamicArrayGetTest.ReturnedReferenceAllowsModification
+[       OK ] DynamicArrayGetTest.ReturnedReferenceAllowsModification (0 ms)
+[----------] 1 test from DynamicArrayGetTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayGetTest.ReturnedReferenceAllowsModification" end time: Jul 14 18:07 UTC
+"DynamicArrayGetTest.ReturnedReferenceAllowsModification" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/94 Testing: DynamicArrayGetTest.WorksWithStringAndCustomObject
+61/94 Test: DynamicArrayGetTest.WorksWithStringAndCustomObject
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayGetTest.WorksWithStringAndCustomObject" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayGetTest.WorksWithStringAndCustomObject" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayGetTest.WorksWithStringAndCustomObject
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayGetTest
+[ RUN      ] DynamicArrayGetTest.WorksWithStringAndCustomObject
+[       OK ] DynamicArrayGetTest.WorksWithStringAndCustomObject (0 ms)
+[----------] 1 test from DynamicArrayGetTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayGetTest.WorksWithStringAndCustomObject" end time: Jul 14 18:07 UTC
+"DynamicArrayGetTest.WorksWithStringAndCustomObject" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/94 Testing: DynamicArrayOperatorBracketTest.AccessValidIndices
+62/94 Test: DynamicArrayOperatorBracketTest.AccessValidIndices
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayOperatorBracketTest.AccessValidIndices" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayOperatorBracketTest.AccessValidIndices" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayOperatorBracketTest.AccessValidIndices
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayOperatorBracketTest
+[ RUN      ] DynamicArrayOperatorBracketTest.AccessValidIndices
+[       OK ] DynamicArrayOperatorBracketTest.AccessValidIndices (0 ms)
+[----------] 1 test from DynamicArrayOperatorBracketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayOperatorBracketTest.AccessValidIndices" end time: Jul 14 18:07 UTC
+"DynamicArrayOperatorBracketTest.AccessValidIndices" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/94 Testing: DynamicArrayOperatorBracketTest.InvalidIndicesThrowExceptions
+63/94 Test: DynamicArrayOperatorBracketTest.InvalidIndicesThrowExceptions
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayOperatorBracketTest.InvalidIndicesThrowExceptions" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayOperatorBracketTest.InvalidIndicesThrowExceptions" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayOperatorBracketTest.InvalidIndicesThrowExceptions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayOperatorBracketTest
+[ RUN      ] DynamicArrayOperatorBracketTest.InvalidIndicesThrowExceptions
+[       OK ] DynamicArrayOperatorBracketTest.InvalidIndicesThrowExceptions (0 ms)
+[----------] 1 test from DynamicArrayOperatorBracketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayOperatorBracketTest.InvalidIndicesThrowExceptions" end time: Jul 14 18:07 UTC
+"DynamicArrayOperatorBracketTest.InvalidIndicesThrowExceptions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/94 Testing: DynamicArrayOperatorBracketTest.ReturnedReferenceAllowsModification
+64/94 Test: DynamicArrayOperatorBracketTest.ReturnedReferenceAllowsModification
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayOperatorBracketTest.ReturnedReferenceAllowsModification" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayOperatorBracketTest.ReturnedReferenceAllowsModification" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayOperatorBracketTest.ReturnedReferenceAllowsModification
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayOperatorBracketTest
+[ RUN      ] DynamicArrayOperatorBracketTest.ReturnedReferenceAllowsModification
+[       OK ] DynamicArrayOperatorBracketTest.ReturnedReferenceAllowsModification (0 ms)
+[----------] 1 test from DynamicArrayOperatorBracketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayOperatorBracketTest.ReturnedReferenceAllowsModification" end time: Jul 14 18:07 UTC
+"DynamicArrayOperatorBracketTest.ReturnedReferenceAllowsModification" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/94 Testing: DynamicArrayOperatorBracketTest.ConstOperatorAccess
+65/94 Test: DynamicArrayOperatorBracketTest.ConstOperatorAccess
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayOperatorBracketTest.ConstOperatorAccess" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayOperatorBracketTest.ConstOperatorAccess" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayOperatorBracketTest.ConstOperatorAccess
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayOperatorBracketTest
+[ RUN      ] DynamicArrayOperatorBracketTest.ConstOperatorAccess
+[       OK ] DynamicArrayOperatorBracketTest.ConstOperatorAccess (0 ms)
+[----------] 1 test from DynamicArrayOperatorBracketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayOperatorBracketTest.ConstOperatorAccess" end time: Jul 14 18:07 UTC
+"DynamicArrayOperatorBracketTest.ConstOperatorAccess" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/94 Testing: DynamicArrayOperatorBracketTest.WorksWithStringAndCustomObject
+66/94 Test: DynamicArrayOperatorBracketTest.WorksWithStringAndCustomObject
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayOperatorBracketTest.WorksWithStringAndCustomObject" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayOperatorBracketTest.WorksWithStringAndCustomObject" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayOperatorBracketTest.WorksWithStringAndCustomObject
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayOperatorBracketTest
+[ RUN      ] DynamicArrayOperatorBracketTest.WorksWithStringAndCustomObject
+[       OK ] DynamicArrayOperatorBracketTest.WorksWithStringAndCustomObject (0 ms)
+[----------] 1 test from DynamicArrayOperatorBracketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayOperatorBracketTest.WorksWithStringAndCustomObject" end time: Jul 14 18:07 UTC
+"DynamicArrayOperatorBracketTest.WorksWithStringAndCustomObject" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/94 Testing: DynamicArrayCopyConstructorTest.CopyEmptyArray
+67/94 Test: DynamicArrayCopyConstructorTest.CopyEmptyArray
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayCopyConstructorTest.CopyEmptyArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayCopyConstructorTest.CopyEmptyArray" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayCopyConstructorTest.CopyEmptyArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayCopyConstructorTest
+[ RUN      ] DynamicArrayCopyConstructorTest.CopyEmptyArray
+[       OK ] DynamicArrayCopyConstructorTest.CopyEmptyArray (0 ms)
+[----------] 1 test from DynamicArrayCopyConstructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayCopyConstructorTest.CopyEmptyArray" end time: Jul 14 18:07 UTC
+"DynamicArrayCopyConstructorTest.CopyEmptyArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/94 Testing: DynamicArrayCopyConstructorTest.CreatesDeepCopy
+68/94 Test: DynamicArrayCopyConstructorTest.CreatesDeepCopy
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayCopyConstructorTest.CreatesDeepCopy" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayCopyConstructorTest.CreatesDeepCopy" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayCopyConstructorTest.CreatesDeepCopy
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayCopyConstructorTest
+[ RUN      ] DynamicArrayCopyConstructorTest.CreatesDeepCopy
+[       OK ] DynamicArrayCopyConstructorTest.CreatesDeepCopy (0 ms)
+[----------] 1 test from DynamicArrayCopyConstructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayCopyConstructorTest.CreatesDeepCopy" end time: Jul 14 18:07 UTC
+"DynamicArrayCopyConstructorTest.CreatesDeepCopy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/94 Testing: DynamicArrayCopyConstructorTest.CopyAfterMultipleResizes
+69/94 Test: DynamicArrayCopyConstructorTest.CopyAfterMultipleResizes
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayCopyConstructorTest.CopyAfterMultipleResizes" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayCopyConstructorTest.CopyAfterMultipleResizes" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayCopyConstructorTest.CopyAfterMultipleResizes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayCopyConstructorTest
+[ RUN      ] DynamicArrayCopyConstructorTest.CopyAfterMultipleResizes
+[       OK ] DynamicArrayCopyConstructorTest.CopyAfterMultipleResizes (0 ms)
+[----------] 1 test from DynamicArrayCopyConstructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayCopyConstructorTest.CopyAfterMultipleResizes" end time: Jul 14 18:07 UTC
+"DynamicArrayCopyConstructorTest.CopyAfterMultipleResizes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/94 Testing: DynamicArrayCopyConstructorTest.WorksWithStringAndCustomObject
+70/94 Test: DynamicArrayCopyConstructorTest.WorksWithStringAndCustomObject
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayCopyConstructorTest.WorksWithStringAndCustomObject" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayCopyConstructorTest.WorksWithStringAndCustomObject" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayCopyConstructorTest.WorksWithStringAndCustomObject
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayCopyConstructorTest
+[ RUN      ] DynamicArrayCopyConstructorTest.WorksWithStringAndCustomObject
+[       OK ] DynamicArrayCopyConstructorTest.WorksWithStringAndCustomObject (0 ms)
+[----------] 1 test from DynamicArrayCopyConstructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayCopyConstructorTest.WorksWithStringAndCustomObject" end time: Jul 14 18:07 UTC
+"DynamicArrayCopyConstructorTest.WorksWithStringAndCustomObject" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/94 Testing: DynamicArrayAssignmentOperatorTest.AssignEmptyArrays
+71/94 Test: DynamicArrayAssignmentOperatorTest.AssignEmptyArrays
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayAssignmentOperatorTest.AssignEmptyArrays" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayAssignmentOperatorTest.AssignEmptyArrays" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayAssignmentOperatorTest.AssignEmptyArrays
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayAssignmentOperatorTest
+[ RUN      ] DynamicArrayAssignmentOperatorTest.AssignEmptyArrays
+[       OK ] DynamicArrayAssignmentOperatorTest.AssignEmptyArrays (0 ms)
+[----------] 1 test from DynamicArrayAssignmentOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayAssignmentOperatorTest.AssignEmptyArrays" end time: Jul 14 18:07 UTC
+"DynamicArrayAssignmentOperatorTest.AssignEmptyArrays" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/94 Testing: DynamicArrayAssignmentOperatorTest.CreatesDeepCopy
+72/94 Test: DynamicArrayAssignmentOperatorTest.CreatesDeepCopy
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayAssignmentOperatorTest.CreatesDeepCopy" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayAssignmentOperatorTest.CreatesDeepCopy" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayAssignmentOperatorTest.CreatesDeepCopy
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayAssignmentOperatorTest
+[ RUN      ] DynamicArrayAssignmentOperatorTest.CreatesDeepCopy
+[       OK ] DynamicArrayAssignmentOperatorTest.CreatesDeepCopy (0 ms)
+[----------] 1 test from DynamicArrayAssignmentOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayAssignmentOperatorTest.CreatesDeepCopy" end time: Jul 14 18:07 UTC
+"DynamicArrayAssignmentOperatorTest.CreatesDeepCopy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/94 Testing: DynamicArrayAssignmentOperatorTest.AssignFromEmptyArray
+73/94 Test: DynamicArrayAssignmentOperatorTest.AssignFromEmptyArray
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayAssignmentOperatorTest.AssignFromEmptyArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayAssignmentOperatorTest.AssignFromEmptyArray" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayAssignmentOperatorTest.AssignFromEmptyArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayAssignmentOperatorTest
+[ RUN      ] DynamicArrayAssignmentOperatorTest.AssignFromEmptyArray
+[       OK ] DynamicArrayAssignmentOperatorTest.AssignFromEmptyArray (0 ms)
+[----------] 1 test from DynamicArrayAssignmentOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayAssignmentOperatorTest.AssignFromEmptyArray" end time: Jul 14 18:07 UTC
+"DynamicArrayAssignmentOperatorTest.AssignFromEmptyArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/94 Testing: DynamicArrayAssignmentOperatorTest.SelfAssignment
+74/94 Test: DynamicArrayAssignmentOperatorTest.SelfAssignment
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayAssignmentOperatorTest.SelfAssignment" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayAssignmentOperatorTest.SelfAssignment" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayAssignmentOperatorTest.SelfAssignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayAssignmentOperatorTest
+[ RUN      ] DynamicArrayAssignmentOperatorTest.SelfAssignment
+[       OK ] DynamicArrayAssignmentOperatorTest.SelfAssignment (0 ms)
+[----------] 1 test from DynamicArrayAssignmentOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayAssignmentOperatorTest.SelfAssignment" end time: Jul 14 18:07 UTC
+"DynamicArrayAssignmentOperatorTest.SelfAssignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/94 Testing: DynamicArrayAssignmentOperatorTest.AssignmentAfterResize
+75/94 Test: DynamicArrayAssignmentOperatorTest.AssignmentAfterResize
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayAssignmentOperatorTest.AssignmentAfterResize" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayAssignmentOperatorTest.AssignmentAfterResize" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayAssignmentOperatorTest.AssignmentAfterResize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayAssignmentOperatorTest
+[ RUN      ] DynamicArrayAssignmentOperatorTest.AssignmentAfterResize
+[       OK ] DynamicArrayAssignmentOperatorTest.AssignmentAfterResize (0 ms)
+[----------] 1 test from DynamicArrayAssignmentOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayAssignmentOperatorTest.AssignmentAfterResize" end time: Jul 14 18:07 UTC
+"DynamicArrayAssignmentOperatorTest.AssignmentAfterResize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/94 Testing: DynamicArrayAssignmentOperatorTest.WorksWithStringAndCustomObject
+76/94 Test: DynamicArrayAssignmentOperatorTest.WorksWithStringAndCustomObject
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayAssignmentOperatorTest.WorksWithStringAndCustomObject" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayAssignmentOperatorTest.WorksWithStringAndCustomObject" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayAssignmentOperatorTest.WorksWithStringAndCustomObject
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayAssignmentOperatorTest
+[ RUN      ] DynamicArrayAssignmentOperatorTest.WorksWithStringAndCustomObject
+[       OK ] DynamicArrayAssignmentOperatorTest.WorksWithStringAndCustomObject (0 ms)
+[----------] 1 test from DynamicArrayAssignmentOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayAssignmentOperatorTest.WorksWithStringAndCustomObject" end time: Jul 14 18:07 UTC
+"DynamicArrayAssignmentOperatorTest.WorksWithStringAndCustomObject" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/94 Testing: DynamicArrayGetSizeTest.InitialSizeIsZero
+77/94 Test: DynamicArrayGetSizeTest.InitialSizeIsZero
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayGetSizeTest.InitialSizeIsZero" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayGetSizeTest.InitialSizeIsZero" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayGetSizeTest.InitialSizeIsZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayGetSizeTest
+[ RUN      ] DynamicArrayGetSizeTest.InitialSizeIsZero
+[       OK ] DynamicArrayGetSizeTest.InitialSizeIsZero (0 ms)
+[----------] 1 test from DynamicArrayGetSizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayGetSizeTest.InitialSizeIsZero" end time: Jul 14 18:07 UTC
+"DynamicArrayGetSizeTest.InitialSizeIsZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/94 Testing: DynamicArrayGetSizeTest.SizeUpdatesCorrectly
+78/94 Test: DynamicArrayGetSizeTest.SizeUpdatesCorrectly
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayGetSizeTest.SizeUpdatesCorrectly" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayGetSizeTest.SizeUpdatesCorrectly" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayGetSizeTest.SizeUpdatesCorrectly
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayGetSizeTest
+[ RUN      ] DynamicArrayGetSizeTest.SizeUpdatesCorrectly
+[       OK ] DynamicArrayGetSizeTest.SizeUpdatesCorrectly (0 ms)
+[----------] 1 test from DynamicArrayGetSizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayGetSizeTest.SizeUpdatesCorrectly" end time: Jul 14 18:07 UTC
+"DynamicArrayGetSizeTest.SizeUpdatesCorrectly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/94 Testing: DynamicArrayGetSizeTest.LargeNumberOfOperations
+79/94 Test: DynamicArrayGetSizeTest.LargeNumberOfOperations
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayGetSizeTest.LargeNumberOfOperations" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayGetSizeTest.LargeNumberOfOperations" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayGetSizeTest.LargeNumberOfOperations
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayGetSizeTest
+[ RUN      ] DynamicArrayGetSizeTest.LargeNumberOfOperations
+[       OK ] DynamicArrayGetSizeTest.LargeNumberOfOperations (0 ms)
+[----------] 1 test from DynamicArrayGetSizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayGetSizeTest.LargeNumberOfOperations" end time: Jul 14 18:07 UTC
+"DynamicArrayGetSizeTest.LargeNumberOfOperations" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/94 Testing: DynamicArrayGetCapacityTest.InitialCapacity
+80/94 Test: DynamicArrayGetCapacityTest.InitialCapacity
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayGetCapacityTest.InitialCapacity" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayGetCapacityTest.InitialCapacity" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayGetCapacityTest.InitialCapacity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayGetCapacityTest
+[ RUN      ] DynamicArrayGetCapacityTest.InitialCapacity
+[       OK ] DynamicArrayGetCapacityTest.InitialCapacity (0 ms)
+[----------] 1 test from DynamicArrayGetCapacityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayGetCapacityTest.InitialCapacity" end time: Jul 14 18:07 UTC
+"DynamicArrayGetCapacityTest.InitialCapacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/94 Testing: DynamicArrayGetCapacityTest.CapacityGrowsCorrectly
+81/94 Test: DynamicArrayGetCapacityTest.CapacityGrowsCorrectly
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayGetCapacityTest.CapacityGrowsCorrectly" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayGetCapacityTest.CapacityGrowsCorrectly" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayGetCapacityTest.CapacityGrowsCorrectly
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayGetCapacityTest
+[ RUN      ] DynamicArrayGetCapacityTest.CapacityGrowsCorrectly
+[       OK ] DynamicArrayGetCapacityTest.CapacityGrowsCorrectly (0 ms)
+[----------] 1 test from DynamicArrayGetCapacityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayGetCapacityTest.CapacityGrowsCorrectly" end time: Jul 14 18:07 UTC
+"DynamicArrayGetCapacityTest.CapacityGrowsCorrectly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/94 Testing: DynamicArrayGetCapacityTest.CapacityDoesNotShrink
+82/94 Test: DynamicArrayGetCapacityTest.CapacityDoesNotShrink
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayGetCapacityTest.CapacityDoesNotShrink" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayGetCapacityTest.CapacityDoesNotShrink" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayGetCapacityTest.CapacityDoesNotShrink
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayGetCapacityTest
+[ RUN      ] DynamicArrayGetCapacityTest.CapacityDoesNotShrink
+[       OK ] DynamicArrayGetCapacityTest.CapacityDoesNotShrink (0 ms)
+[----------] 1 test from DynamicArrayGetCapacityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayGetCapacityTest.CapacityDoesNotShrink" end time: Jul 14 18:07 UTC
+"DynamicArrayGetCapacityTest.CapacityDoesNotShrink" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/94 Testing: DynamicArrayGetCapacityTest.CapacityAfterInsertAtIndex
+83/94 Test: DynamicArrayGetCapacityTest.CapacityAfterInsertAtIndex
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayGetCapacityTest.CapacityAfterInsertAtIndex" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayGetCapacityTest.CapacityAfterInsertAtIndex" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayGetCapacityTest.CapacityAfterInsertAtIndex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayGetCapacityTest
+[ RUN      ] DynamicArrayGetCapacityTest.CapacityAfterInsertAtIndex
+[       OK ] DynamicArrayGetCapacityTest.CapacityAfterInsertAtIndex (0 ms)
+[----------] 1 test from DynamicArrayGetCapacityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayGetCapacityTest.CapacityAfterInsertAtIndex" end time: Jul 14 18:07 UTC
+"DynamicArrayGetCapacityTest.CapacityAfterInsertAtIndex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/94 Testing: DynamicArrayIsEmptyTest.EmptyAndNonEmptyStates
+84/94 Test: DynamicArrayIsEmptyTest.EmptyAndNonEmptyStates
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayIsEmptyTest.EmptyAndNonEmptyStates" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayIsEmptyTest.EmptyAndNonEmptyStates" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayIsEmptyTest.EmptyAndNonEmptyStates
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayIsEmptyTest
+[ RUN      ] DynamicArrayIsEmptyTest.EmptyAndNonEmptyStates
+[       OK ] DynamicArrayIsEmptyTest.EmptyAndNonEmptyStates (0 ms)
+[----------] 1 test from DynamicArrayIsEmptyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayIsEmptyTest.EmptyAndNonEmptyStates" end time: Jul 14 18:07 UTC
+"DynamicArrayIsEmptyTest.EmptyAndNonEmptyStates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/94 Testing: DynamicArrayIsEmptyTest.StateAfterOperations
+85/94 Test: DynamicArrayIsEmptyTest.StateAfterOperations
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayIsEmptyTest.StateAfterOperations" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayIsEmptyTest.StateAfterOperations" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayIsEmptyTest.StateAfterOperations
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayIsEmptyTest
+[ RUN      ] DynamicArrayIsEmptyTest.StateAfterOperations
+[       OK ] DynamicArrayIsEmptyTest.StateAfterOperations (0 ms)
+[----------] 1 test from DynamicArrayIsEmptyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayIsEmptyTest.StateAfterOperations" end time: Jul 14 18:07 UTC
+"DynamicArrayIsEmptyTest.StateAfterOperations" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/94 Testing: DynamicArrayIsEmptyTest.LargeNumberOfOperations
+86/94 Test: DynamicArrayIsEmptyTest.LargeNumberOfOperations
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayIsEmptyTest.LargeNumberOfOperations" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayIsEmptyTest.LargeNumberOfOperations" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayIsEmptyTest.LargeNumberOfOperations
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayIsEmptyTest
+[ RUN      ] DynamicArrayIsEmptyTest.LargeNumberOfOperations
+[       OK ] DynamicArrayIsEmptyTest.LargeNumberOfOperations (0 ms)
+[----------] 1 test from DynamicArrayIsEmptyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayIsEmptyTest.LargeNumberOfOperations" end time: Jul 14 18:07 UTC
+"DynamicArrayIsEmptyTest.LargeNumberOfOperations" time elapsed: 00:00:00
+----------------------------------------------------------
+
+87/94 Testing: DynamicArrayIsFullTest.InitialState
+87/94 Test: DynamicArrayIsFullTest.InitialState
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayIsFullTest.InitialState" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayIsFullTest.InitialState" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayIsFullTest.InitialState
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayIsFullTest
+[ RUN      ] DynamicArrayIsFullTest.InitialState
+[       OK ] DynamicArrayIsFullTest.InitialState (0 ms)
+[----------] 1 test from DynamicArrayIsFullTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayIsFullTest.InitialState" end time: Jul 14 18:07 UTC
+"DynamicArrayIsFullTest.InitialState" time elapsed: 00:00:00
+----------------------------------------------------------
+
+88/94 Testing: DynamicArrayIsFullTest.FullStateChangesCorrectly
+88/94 Test: DynamicArrayIsFullTest.FullStateChangesCorrectly
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayIsFullTest.FullStateChangesCorrectly" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayIsFullTest.FullStateChangesCorrectly" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayIsFullTest.FullStateChangesCorrectly
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayIsFullTest
+[ RUN      ] DynamicArrayIsFullTest.FullStateChangesCorrectly
+[       OK ] DynamicArrayIsFullTest.FullStateChangesCorrectly (0 ms)
+[----------] 1 test from DynamicArrayIsFullTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayIsFullTest.FullStateChangesCorrectly" end time: Jul 14 18:07 UTC
+"DynamicArrayIsFullTest.FullStateChangesCorrectly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+89/94 Testing: DynamicArrayIsFullTest.StateAfterRemovingElements
+89/94 Test: DynamicArrayIsFullTest.StateAfterRemovingElements
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayIsFullTest.StateAfterRemovingElements" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayIsFullTest.StateAfterRemovingElements" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayIsFullTest.StateAfterRemovingElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayIsFullTest
+[ RUN      ] DynamicArrayIsFullTest.StateAfterRemovingElements
+[       OK ] DynamicArrayIsFullTest.StateAfterRemovingElements (0 ms)
+[----------] 1 test from DynamicArrayIsFullTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayIsFullTest.StateAfterRemovingElements" end time: Jul 14 18:07 UTC
+"DynamicArrayIsFullTest.StateAfterRemovingElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+90/94 Testing: DynamicArrayIsFullTest.LargeNumberOfOperations
+90/94 Test: DynamicArrayIsFullTest.LargeNumberOfOperations
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayIsFullTest.LargeNumberOfOperations" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayIsFullTest.LargeNumberOfOperations" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayIsFullTest.LargeNumberOfOperations
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayIsFullTest
+[ RUN      ] DynamicArrayIsFullTest.LargeNumberOfOperations
+[       OK ] DynamicArrayIsFullTest.LargeNumberOfOperations (0 ms)
+[----------] 1 test from DynamicArrayIsFullTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayIsFullTest.LargeNumberOfOperations" end time: Jul 14 18:07 UTC
+"DynamicArrayIsFullTest.LargeNumberOfOperations" time elapsed: 00:00:00
+----------------------------------------------------------
+
+91/94 Testing: DynamicArrayPrintTest.PrintEmptyArray
+91/94 Test: DynamicArrayPrintTest.PrintEmptyArray
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPrintTest.PrintEmptyArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPrintTest.PrintEmptyArray" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPrintTest.PrintEmptyArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPrintTest
+[ RUN      ] DynamicArrayPrintTest.PrintEmptyArray
+[       OK ] DynamicArrayPrintTest.PrintEmptyArray (0 ms)
+[----------] 1 test from DynamicArrayPrintTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPrintTest.PrintEmptyArray" end time: Jul 14 18:07 UTC
+"DynamicArrayPrintTest.PrintEmptyArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/94 Testing: DynamicArrayPrintTest.PrintIntegerArray
+92/94 Test: DynamicArrayPrintTest.PrintIntegerArray
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPrintTest.PrintIntegerArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPrintTest.PrintIntegerArray" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPrintTest.PrintIntegerArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPrintTest
+[ RUN      ] DynamicArrayPrintTest.PrintIntegerArray
+[       OK ] DynamicArrayPrintTest.PrintIntegerArray (0 ms)
+[----------] 1 test from DynamicArrayPrintTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPrintTest.PrintIntegerArray" end time: Jul 14 18:07 UTC
+"DynamicArrayPrintTest.PrintIntegerArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+93/94 Testing: DynamicArrayPrintTest.PrintStringArray
+93/94 Test: DynamicArrayPrintTest.PrintStringArray
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPrintTest.PrintStringArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPrintTest.PrintStringArray" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPrintTest.PrintStringArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPrintTest
+[ RUN      ] DynamicArrayPrintTest.PrintStringArray
+[       OK ] DynamicArrayPrintTest.PrintStringArray (0 ms)
+[----------] 1 test from DynamicArrayPrintTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPrintTest.PrintStringArray" end time: Jul 14 18:07 UTC
+"DynamicArrayPrintTest.PrintStringArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+94/94 Testing: DynamicArrayPrintTest.PrintCustomObjectArray
+94/94 Test: DynamicArrayPrintTest.PrintCustomObjectArray
+Command: "/mnt/c/Users/suman/Desktop/DS_Library/build/DynamicArrayTesting" "--gtest_filter=DynamicArrayPrintTest.PrintCustomObjectArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/suman/Desktop/DS_Library/build
+"DynamicArrayPrintTest.PrintCustomObjectArray" start time: Jul 14 18:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = DynamicArrayPrintTest.PrintCustomObjectArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPrintTest
+[ RUN      ] DynamicArrayPrintTest.PrintCustomObjectArray
+[       OK ] DynamicArrayPrintTest.PrintCustomObjectArray (0 ms)
+[----------] 1 test from DynamicArrayPrintTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPrintTest.PrintCustomObjectArray" end time: Jul 14 18:07 UTC
+"DynamicArrayPrintTest.PrintCustomObjectArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 14 18:07 UTC
