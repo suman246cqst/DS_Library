@@ -152,6 +152,19 @@ DynamicArrayTesting/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicArrayTesting.dir/build.make CMakeFiles/DynamicArrayTesting.dir/build
 .PHONY : DynamicArrayTesting/fast
 
+#=============================================================================
+# Target rules for targets named LinkedListTesting
+
+# Build rule for target.
+LinkedListTesting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinkedListTesting
+.PHONY : LinkedListTesting
+
+# fast build rule for target.
+LinkedListTesting/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/build
+.PHONY : LinkedListTesting/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -536,6 +549,390 @@ testing/DynamicArrayTesting/DynamicArrayPushBack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicArrayTesting.dir/build.make CMakeFiles/DynamicArrayTesting.dir/testing/DynamicArrayTesting/DynamicArrayPushBack.cpp.s
 .PHONY : testing/DynamicArrayTesting/DynamicArrayPushBack.cpp.s
 
+testing/LinkedListTesting/LinkedListConstructor.o: testing/LinkedListTesting/LinkedListConstructor.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListConstructor.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListConstructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListConstructor.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListConstructor.cpp.o
+
+testing/LinkedListTesting/LinkedListConstructor.i: testing/LinkedListTesting/LinkedListConstructor.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListConstructor.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListConstructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListConstructor.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListConstructor.cpp.i
+
+testing/LinkedListTesting/LinkedListConstructor.s: testing/LinkedListTesting/LinkedListConstructor.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListConstructor.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListConstructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListConstructor.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListConstructor.cpp.s
+
+testing/LinkedListTesting/LinkedListCopyAssignment.o: testing/LinkedListTesting/LinkedListCopyAssignment.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListCopyAssignment.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListCopyAssignment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListCopyAssignment.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListCopyAssignment.cpp.o
+
+testing/LinkedListTesting/LinkedListCopyAssignment.i: testing/LinkedListTesting/LinkedListCopyAssignment.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListCopyAssignment.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListCopyAssignment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListCopyAssignment.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListCopyAssignment.cpp.i
+
+testing/LinkedListTesting/LinkedListCopyAssignment.s: testing/LinkedListTesting/LinkedListCopyAssignment.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListCopyAssignment.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListCopyAssignment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListCopyAssignment.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListCopyAssignment.cpp.s
+
+testing/LinkedListTesting/LinkedListCopyConstructor.o: testing/LinkedListTesting/LinkedListCopyConstructor.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListCopyConstructor.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListCopyConstructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListCopyConstructor.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListCopyConstructor.cpp.o
+
+testing/LinkedListTesting/LinkedListCopyConstructor.i: testing/LinkedListTesting/LinkedListCopyConstructor.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListCopyConstructor.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListCopyConstructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListCopyConstructor.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListCopyConstructor.cpp.i
+
+testing/LinkedListTesting/LinkedListCopyConstructor.s: testing/LinkedListTesting/LinkedListCopyConstructor.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListCopyConstructor.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListCopyConstructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListCopyConstructor.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListCopyConstructor.cpp.s
+
+testing/LinkedListTesting/LinkedListDelete.o: testing/LinkedListTesting/LinkedListDelete.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListDelete.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListDelete.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListDelete.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListDelete.cpp.o
+
+testing/LinkedListTesting/LinkedListDelete.i: testing/LinkedListTesting/LinkedListDelete.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListDelete.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListDelete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListDelete.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListDelete.cpp.i
+
+testing/LinkedListTesting/LinkedListDelete.s: testing/LinkedListTesting/LinkedListDelete.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListDelete.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListDelete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListDelete.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListDelete.cpp.s
+
+testing/LinkedListTesting/LinkedListDestructor.o: testing/LinkedListTesting/LinkedListDestructor.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListDestructor.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListDestructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListDestructor.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListDestructor.cpp.o
+
+testing/LinkedListTesting/LinkedListDestructor.i: testing/LinkedListTesting/LinkedListDestructor.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListDestructor.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListDestructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListDestructor.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListDestructor.cpp.i
+
+testing/LinkedListTesting/LinkedListDestructor.s: testing/LinkedListTesting/LinkedListDestructor.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListDestructor.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListDestructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListDestructor.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListDestructor.cpp.s
+
+testing/LinkedListTesting/LinkedListGet.o: testing/LinkedListTesting/LinkedListGet.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListGet.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListGet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGet.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListGet.cpp.o
+
+testing/LinkedListTesting/LinkedListGet.i: testing/LinkedListTesting/LinkedListGet.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListGet.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListGet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGet.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListGet.cpp.i
+
+testing/LinkedListTesting/LinkedListGet.s: testing/LinkedListTesting/LinkedListGet.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListGet.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListGet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGet.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListGet.cpp.s
+
+testing/LinkedListTesting/LinkedListGetHead.o: testing/LinkedListTesting/LinkedListGetHead.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListGetHead.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListGetHead.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGetHead.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListGetHead.cpp.o
+
+testing/LinkedListTesting/LinkedListGetHead.i: testing/LinkedListTesting/LinkedListGetHead.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListGetHead.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListGetHead.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGetHead.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListGetHead.cpp.i
+
+testing/LinkedListTesting/LinkedListGetHead.s: testing/LinkedListTesting/LinkedListGetHead.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListGetHead.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListGetHead.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGetHead.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListGetHead.cpp.s
+
+testing/LinkedListTesting/LinkedListGetSize.o: testing/LinkedListTesting/LinkedListGetSize.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListGetSize.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListGetSize.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGetSize.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListGetSize.cpp.o
+
+testing/LinkedListTesting/LinkedListGetSize.i: testing/LinkedListTesting/LinkedListGetSize.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListGetSize.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListGetSize.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGetSize.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListGetSize.cpp.i
+
+testing/LinkedListTesting/LinkedListGetSize.s: testing/LinkedListTesting/LinkedListGetSize.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListGetSize.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListGetSize.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGetSize.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListGetSize.cpp.s
+
+testing/LinkedListTesting/LinkedListInsert.o: testing/LinkedListTesting/LinkedListInsert.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListInsert.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListInsert.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListInsert.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListInsert.cpp.o
+
+testing/LinkedListTesting/LinkedListInsert.i: testing/LinkedListTesting/LinkedListInsert.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListInsert.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListInsert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListInsert.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListInsert.cpp.i
+
+testing/LinkedListTesting/LinkedListInsert.s: testing/LinkedListTesting/LinkedListInsert.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListInsert.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListInsert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListInsert.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListInsert.cpp.s
+
+testing/LinkedListTesting/LinkedListPopBack.o: testing/LinkedListTesting/LinkedListPopBack.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListPopBack.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListPopBack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPopBack.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListPopBack.cpp.o
+
+testing/LinkedListTesting/LinkedListPopBack.i: testing/LinkedListTesting/LinkedListPopBack.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListPopBack.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListPopBack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPopBack.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListPopBack.cpp.i
+
+testing/LinkedListTesting/LinkedListPopBack.s: testing/LinkedListTesting/LinkedListPopBack.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListPopBack.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListPopBack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPopBack.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListPopBack.cpp.s
+
+testing/LinkedListTesting/LinkedListPopFront.o: testing/LinkedListTesting/LinkedListPopFront.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListPopFront.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListPopFront.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPopFront.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListPopFront.cpp.o
+
+testing/LinkedListTesting/LinkedListPopFront.i: testing/LinkedListTesting/LinkedListPopFront.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListPopFront.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListPopFront.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPopFront.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListPopFront.cpp.i
+
+testing/LinkedListTesting/LinkedListPopFront.s: testing/LinkedListTesting/LinkedListPopFront.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListPopFront.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListPopFront.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPopFront.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListPopFront.cpp.s
+
+testing/LinkedListTesting/LinkedListPushBack.o: testing/LinkedListTesting/LinkedListPushBack.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListPushBack.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListPushBack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPushBack.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListPushBack.cpp.o
+
+testing/LinkedListTesting/LinkedListPushBack.i: testing/LinkedListTesting/LinkedListPushBack.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListPushBack.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListPushBack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPushBack.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListPushBack.cpp.i
+
+testing/LinkedListTesting/LinkedListPushBack.s: testing/LinkedListTesting/LinkedListPushBack.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListPushBack.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListPushBack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPushBack.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListPushBack.cpp.s
+
+testing/LinkedListTesting/LinkedListPushFront.o: testing/LinkedListTesting/LinkedListPushFront.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListPushFront.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListPushFront.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPushFront.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListPushFront.cpp.o
+
+testing/LinkedListTesting/LinkedListPushFront.i: testing/LinkedListTesting/LinkedListPushFront.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListPushFront.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListPushFront.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPushFront.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListPushFront.cpp.i
+
+testing/LinkedListTesting/LinkedListPushFront.s: testing/LinkedListTesting/LinkedListPushFront.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListPushFront.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListPushFront.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPushFront.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListPushFront.cpp.s
+
+testing/LinkedListTesting/LinkedListRemove.o: testing/LinkedListTesting/LinkedListRemove.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListRemove.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListRemove.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListRemove.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListRemove.cpp.o
+
+testing/LinkedListTesting/LinkedListRemove.i: testing/LinkedListTesting/LinkedListRemove.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListRemove.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListRemove.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListRemove.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListRemove.cpp.i
+
+testing/LinkedListTesting/LinkedListRemove.s: testing/LinkedListTesting/LinkedListRemove.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListRemove.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListRemove.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListRemove.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListRemove.cpp.s
+
+testing/LinkedListTesting/LinkedListSearch.o: testing/LinkedListTesting/LinkedListSearch.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListSearch.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListSearch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListSearch.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListSearch.cpp.o
+
+testing/LinkedListTesting/LinkedListSearch.i: testing/LinkedListTesting/LinkedListSearch.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListSearch.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListSearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListSearch.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListSearch.cpp.i
+
+testing/LinkedListTesting/LinkedListSearch.s: testing/LinkedListTesting/LinkedListSearch.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListSearch.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListSearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListSearch.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListSearch.cpp.s
+
+testing/LinkedListTesting/LinkedListTraverse.o: testing/LinkedListTesting/LinkedListTraverse.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListTraverse.o
+
+# target to build an object file
+testing/LinkedListTesting/LinkedListTraverse.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListTraverse.cpp.o
+.PHONY : testing/LinkedListTesting/LinkedListTraverse.cpp.o
+
+testing/LinkedListTesting/LinkedListTraverse.i: testing/LinkedListTesting/LinkedListTraverse.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListTraverse.i
+
+# target to preprocess a source file
+testing/LinkedListTesting/LinkedListTraverse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListTraverse.cpp.i
+.PHONY : testing/LinkedListTesting/LinkedListTraverse.cpp.i
+
+testing/LinkedListTesting/LinkedListTraverse.s: testing/LinkedListTesting/LinkedListTraverse.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListTraverse.s
+
+# target to generate assembly for a file
+testing/LinkedListTesting/LinkedListTraverse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTesting.dir/build.make CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListTraverse.cpp.s
+.PHONY : testing/LinkedListTesting/LinkedListTraverse.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -546,6 +943,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... DynamicArrayTesting"
+	@echo "... LinkedListTesting"
 	@echo "... main"
 	@echo "... main.o"
 	@echo "... main.i"
@@ -595,6 +993,54 @@ help:
 	@echo "... testing/DynamicArrayTesting/DynamicArrayPushBack.o"
 	@echo "... testing/DynamicArrayTesting/DynamicArrayPushBack.i"
 	@echo "... testing/DynamicArrayTesting/DynamicArrayPushBack.s"
+	@echo "... testing/LinkedListTesting/LinkedListConstructor.o"
+	@echo "... testing/LinkedListTesting/LinkedListConstructor.i"
+	@echo "... testing/LinkedListTesting/LinkedListConstructor.s"
+	@echo "... testing/LinkedListTesting/LinkedListCopyAssignment.o"
+	@echo "... testing/LinkedListTesting/LinkedListCopyAssignment.i"
+	@echo "... testing/LinkedListTesting/LinkedListCopyAssignment.s"
+	@echo "... testing/LinkedListTesting/LinkedListCopyConstructor.o"
+	@echo "... testing/LinkedListTesting/LinkedListCopyConstructor.i"
+	@echo "... testing/LinkedListTesting/LinkedListCopyConstructor.s"
+	@echo "... testing/LinkedListTesting/LinkedListDelete.o"
+	@echo "... testing/LinkedListTesting/LinkedListDelete.i"
+	@echo "... testing/LinkedListTesting/LinkedListDelete.s"
+	@echo "... testing/LinkedListTesting/LinkedListDestructor.o"
+	@echo "... testing/LinkedListTesting/LinkedListDestructor.i"
+	@echo "... testing/LinkedListTesting/LinkedListDestructor.s"
+	@echo "... testing/LinkedListTesting/LinkedListGet.o"
+	@echo "... testing/LinkedListTesting/LinkedListGet.i"
+	@echo "... testing/LinkedListTesting/LinkedListGet.s"
+	@echo "... testing/LinkedListTesting/LinkedListGetHead.o"
+	@echo "... testing/LinkedListTesting/LinkedListGetHead.i"
+	@echo "... testing/LinkedListTesting/LinkedListGetHead.s"
+	@echo "... testing/LinkedListTesting/LinkedListGetSize.o"
+	@echo "... testing/LinkedListTesting/LinkedListGetSize.i"
+	@echo "... testing/LinkedListTesting/LinkedListGetSize.s"
+	@echo "... testing/LinkedListTesting/LinkedListInsert.o"
+	@echo "... testing/LinkedListTesting/LinkedListInsert.i"
+	@echo "... testing/LinkedListTesting/LinkedListInsert.s"
+	@echo "... testing/LinkedListTesting/LinkedListPopBack.o"
+	@echo "... testing/LinkedListTesting/LinkedListPopBack.i"
+	@echo "... testing/LinkedListTesting/LinkedListPopBack.s"
+	@echo "... testing/LinkedListTesting/LinkedListPopFront.o"
+	@echo "... testing/LinkedListTesting/LinkedListPopFront.i"
+	@echo "... testing/LinkedListTesting/LinkedListPopFront.s"
+	@echo "... testing/LinkedListTesting/LinkedListPushBack.o"
+	@echo "... testing/LinkedListTesting/LinkedListPushBack.i"
+	@echo "... testing/LinkedListTesting/LinkedListPushBack.s"
+	@echo "... testing/LinkedListTesting/LinkedListPushFront.o"
+	@echo "... testing/LinkedListTesting/LinkedListPushFront.i"
+	@echo "... testing/LinkedListTesting/LinkedListPushFront.s"
+	@echo "... testing/LinkedListTesting/LinkedListRemove.o"
+	@echo "... testing/LinkedListTesting/LinkedListRemove.i"
+	@echo "... testing/LinkedListTesting/LinkedListRemove.s"
+	@echo "... testing/LinkedListTesting/LinkedListSearch.o"
+	@echo "... testing/LinkedListTesting/LinkedListSearch.i"
+	@echo "... testing/LinkedListTesting/LinkedListSearch.s"
+	@echo "... testing/LinkedListTesting/LinkedListTraverse.o"
+	@echo "... testing/LinkedListTesting/LinkedListTraverse.i"
+	@echo "... testing/LinkedListTesting/LinkedListTraverse.s"
 .PHONY : help
 
 

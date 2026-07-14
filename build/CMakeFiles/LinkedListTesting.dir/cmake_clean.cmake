@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/LinkedListTesting.dir/link.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListConstructor.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListConstructor.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListCopyAssignment.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListCopyAssignment.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListCopyConstructor.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListCopyConstructor.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListDelete.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListDelete.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListDestructor.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListDestructor.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGet.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGet.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGetHead.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGetHead.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGetSize.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListGetSize.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListInsert.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListInsert.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPopBack.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPopBack.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPopFront.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPopFront.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPushBack.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPushBack.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPushFront.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListPushFront.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListRemove.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListRemove.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListSearch.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListSearch.cpp.o.d"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListTraverse.cpp.o"
+  "CMakeFiles/LinkedListTesting.dir/testing/LinkedListTesting/LinkedListTraverse.cpp.o.d"
+  "LinkedListTesting"
+  "LinkedListTesting.pdb"
+  "LinkedListTesting[1]_tests.cmake"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/LinkedListTesting.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/suman/Desktop/DS_Library/build/LinkedListTesting[1]_tests.cmake")
+  include("/mnt/c/Users/suman/Desktop/DS_Library/build/LinkedListTesting[1]_tests.cmake")
+else()
+  add_test(LinkedListTesting_NOT_BUILT LinkedListTesting_NOT_BUILT)
+endif()

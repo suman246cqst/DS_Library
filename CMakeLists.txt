@@ -45,7 +45,32 @@ target_link_libraries(DynamicArrayTesting
 
 )
 
+add_executable(LinkedListTesting
+    testing/LinkedListTesting/LinkedListPushFront.cpp
+    testing/LinkedListTesting/LinkedListPushBack.cpp
+    testing/LinkedListTesting/LinkedListConstructor.cpp
+    testing/LinkedListTesting/LinkedListDestructor.cpp
+    testing/LinkedListTesting/LinkedListCopyConstructor.cpp
+    testing/LinkedListTesting/LinkedListCopyAssignment.cpp
+    testing/LinkedListTesting/LinkedListGetSize.cpp
+    testing/LinkedListTesting/LinkedListGetHead.cpp
+    testing/LinkedListTesting/LinkedListInsert.cpp
+    testing/LinkedListTesting/LinkedListPopFront.cpp
+    testing/LinkedListTesting/LinkedListPopBack.cpp
+    testing/LinkedListTesting/LinkedListDelete.cpp
+    testing/LinkedListTesting/LinkedListRemove.cpp
+    testing/LinkedListTesting/LinkedListGet.cpp
+    testing/LinkedListTesting/LinkedListSearch.cpp
+    testing/LinkedListTesting/LinkedListTraverse.cpp
+)
+
+target_link_libraries(LinkedListTesting
+
+    GTest::gtest
+    GTest::gtest_main
+)
 
 include(GoogleTest)
 
 gtest_discover_tests(DynamicArrayTesting)
+gtest_discover_tests(LinkedListTesting)
