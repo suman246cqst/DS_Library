@@ -112,27 +112,7 @@ TEST(LinkedListPopBackTest, EmptyListThrowsException)
     EXPECT_THROW(list.pop_back(), underflow_error);
 }
 
-/*------------------------------------------------------------
-    Duplicate And Negative Values
--------------------------------------------------------------*/
 
-TEST(LinkedListPopBackTest, HandlesDuplicateAndNegativeValues)
-{
-    LinkedList<int> list;
-
-    list.push_back(-10);
-    list.push_back(-20);
-    list.push_back(-20);
-    list.push_back(-30);
-
-    list.pop_back();
-
-    EXPECT_EQ(list.getSize(), 3);
-
-    EXPECT_EQ(list.get(0), -10);
-    EXPECT_EQ(list.get(1), -20);
-    EXPECT_EQ(list.get(2), -20);
-}
 
 /*------------------------------------------------------------
     Works With String

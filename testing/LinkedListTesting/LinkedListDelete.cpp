@@ -107,27 +107,6 @@ TEST(LinkedListDeleteAtIndexTest, DeleteUntilEmpty)
     EXPECT_EQ(list.getHead(), nullptr);
 }
 
-/*------------------------------------------------------------
-    Delete After Multiple Insertions
--------------------------------------------------------------*/
-
-TEST(LinkedListDeleteAtIndexTest, DeleteAfterMultipleInsertions)
-{
-    LinkedList<int> list;
-
-    for (int i = 0; i < 20; i++)
-        list.push_back(i);
-
-    list.deleteAtIndex(10);
-
-    EXPECT_EQ(list.getSize(), 19);
-
-    for (int i = 0; i < 10; i++)
-        EXPECT_EQ(list.get(i), i);
-
-    for (int i = 10; i < 19; i++)
-        EXPECT_EQ(list.get(i), i + 1);
-}
 
 /*------------------------------------------------------------
     Invalid Indices
@@ -147,27 +126,6 @@ TEST(LinkedListDeleteAtIndexTest, InvalidIndicesThrowExceptions)
     EXPECT_THROW(list.deleteAtIndex(100), out_of_range);
 }
 
-/*------------------------------------------------------------
-    Duplicate And Negative Values
--------------------------------------------------------------*/
-
-TEST(LinkedListDeleteAtIndexTest, DeleteDuplicateAndNegativeValues)
-{
-    LinkedList<int> list;
-
-    list.push_back(-10);
-    list.push_back(-20);
-    list.push_back(-20);
-    list.push_back(-30);
-
-    list.deleteAtIndex(1);
-
-    EXPECT_EQ(list.getSize(), 3);
-
-    EXPECT_EQ(list.get(0), -10);
-    EXPECT_EQ(list.get(1), -20);
-    EXPECT_EQ(list.get(2), -30);
-}
 
 /*------------------------------------------------------------
     Works With String

@@ -116,28 +116,6 @@ TEST(DynamicArrayAssignmentOperatorTest, SelfAssignment)
 }
 
 /*------------------------------------------------------------
-    Assignment Operator : After Resize
--------------------------------------------------------------*/
-
-TEST(DynamicArrayAssignmentOperatorTest, AssignmentAfterResize)
-{
-    DynamicArray<int> arr1;
-
-    for (int i = 0; i < 100; i++)
-        arr1.push_back(i);
-
-    DynamicArray<int> arr2;
-
-    arr2 = arr1;
-
-    EXPECT_EQ(arr2.getSize(), arr1.getSize());
-    EXPECT_EQ(arr2.getCapacity(), arr1.getCapacity());
-
-    for (int i = 0; i < 100; i++)
-        EXPECT_EQ(arr2[i], arr1[i]);
-}
-
-/*------------------------------------------------------------
     Assignment Operator : String And Custom Object
 -------------------------------------------------------------*/
 

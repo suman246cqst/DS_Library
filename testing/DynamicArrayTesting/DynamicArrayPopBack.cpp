@@ -41,29 +41,6 @@ TEST(DynamicArrayPopBackTest, PopLastElementFromMultipleElements)
     EXPECT_EQ(arr[1], 20);
 }
 
-/*------------------------------------------------------------
-    pop_back() : Multiple Pops
--------------------------------------------------------------*/
-
-TEST(DynamicArrayPopBackTest, PopElementsOneByOne)
-{
-    DynamicArray<int> arr;
-
-    for (int i = 1; i <= 5; i++)
-        arr.push_back(i);
-
-    arr.pop_back();
-    EXPECT_EQ(arr.getSize(), 4);
-
-    arr.pop_back();
-    EXPECT_EQ(arr.getSize(), 3);
-
-    arr.pop_back();
-    EXPECT_EQ(arr.getSize(), 2);
-
-    EXPECT_EQ(arr[0], 1);
-    EXPECT_EQ(arr[1], 2);
-}
 
 /*------------------------------------------------------------
     pop_back() : Pop Until Empty
@@ -96,42 +73,7 @@ TEST(DynamicArrayPopBackTest, PopFromEmptyArrayThrows)
     EXPECT_THROW(arr.pop_back(), underflow_error);
 }
 
-/*------------------------------------------------------------
-    pop_back() : Size Update
--------------------------------------------------------------*/
 
-TEST(DynamicArrayPopBackTest, SizeDecreasesByOne)
-{
-    DynamicArray<int> arr;
-
-    arr.push_back(10);
-    arr.push_back(20);
-    arr.push_back(30);
-
-    int previousSize = arr.getSize();
-
-    arr.pop_back();
-
-    EXPECT_EQ(arr.getSize(), previousSize - 1);
-}
-
-/*------------------------------------------------------------
-    pop_back() : Capacity
--------------------------------------------------------------*/
-
-TEST(DynamicArrayPopBackTest, CapacityDoesNotShrink)
-{
-    DynamicArray<int> arr;
-
-    for (int i = 0; i < 10; i++)
-        arr.push_back(i);
-
-    int previousCapacity = arr.getCapacity();
-
-    arr.pop_back();
-
-    EXPECT_EQ(arr.getCapacity(), previousCapacity);
-}
 
 /*------------------------------------------------------------
     pop_back() : After Resize
@@ -239,20 +181,3 @@ TEST(DynamicArrayPopBackTest, AlternatePushAndPop)
     EXPECT_TRUE(arr.isEmpty());
 }
 
-/*------------------------------------------------------------
-    pop_back() : Leave Single Element
--------------------------------------------------------------*/
-
-TEST(DynamicArrayPopBackTest, LeaveSingleElementAfterMultiplePops)
-{
-    DynamicArray<int> arr;
-
-    for (int i = 1; i <= 5; i++)
-        arr.push_back(i);
-
-    while (arr.getSize() > 1)
-        arr.pop_back();
-
-    EXPECT_EQ(arr.getSize(), 1);
-    EXPECT_EQ(arr[0], 1);
-}

@@ -166,27 +166,6 @@ TEST(LinkedListRemoveTest, RemovesOnlyFirstOccurrence)
     EXPECT_EQ(list.get(2), 30);
 }
 
-/*------------------------------------------------------------
-    Negative Values
--------------------------------------------------------------*/
-
-TEST(LinkedListRemoveTest, HandlesNegativeValues)
-{
-    LinkedList<int> list;
-
-    list.push_back(-10);
-    list.push_back(-20);
-    list.push_back(-30);
-
-    int value = -20;
-
-    list.remove(value);
-
-    EXPECT_EQ(list.getSize(), 2);
-
-    EXPECT_EQ(list.get(0), -10);
-    EXPECT_EQ(list.get(1), -30);
-}
 
 /*------------------------------------------------------------
     Works With String

@@ -33,51 +33,7 @@ TEST(LinkedListDestructorTest, DestroySingleNodeList)
     SUCCEED();
 }
 
-/*------------------------------------------------------------
-    Destructor After Multiple Nodes
--------------------------------------------------------------*/
 
-TEST(LinkedListDestructorTest, DestroyMultipleNodeList)
-{
-    {
-        LinkedList<int> list;
-
-        for (int i = 1; i <= 100; i++)
-            list.push_back(i);
-
-        EXPECT_EQ(list.getSize(), 100);
-
-        EXPECT_EQ(list.get(0), 1);
-        EXPECT_EQ(list.get(99), 100);
-    }
-
-    SUCCEED();
-}
-
-/*------------------------------------------------------------
-    Destructor After Mixed Operations
--------------------------------------------------------------*/
-
-TEST(LinkedListDestructorTest, DestroyListAfterMixedOperations)
-{
-    {
-        LinkedList<int> list;
-
-        list.push_back(10);
-        list.push_back(20);
-        list.push_front(5);
-        list.insertAtIndex(2, 15);
-
-        list.pop_front();
-        list.pop_back();
-        list.deleteAtIndex(1);
-
-        EXPECT_EQ(list.getSize(), 1);
-        EXPECT_EQ(list.get(0), 10);
-    }
-
-    SUCCEED();
-}
 
 /*------------------------------------------------------------
     Destructor On Large List

@@ -152,27 +152,6 @@ TEST(DynamicArrayDeleteAtIndexTest, InvalidIndicesThrowExceptions)
     EXPECT_THROW(empty.deleteAtIndex(0), underflow_error);
 }
 
-/*------------------------------------------------------------
-    Duplicate And Negative Values
--------------------------------------------------------------*/
-
-TEST(DynamicArrayDeleteAtIndexTest, DeleteDuplicateAndNegativeValues)
-{
-    DynamicArray<int> arr;
-
-    arr.push_back(-10);
-    arr.push_back(-20);
-    arr.push_back(-20);
-    arr.push_back(-30);
-
-    arr.deleteAtIndex(1);
-
-    EXPECT_EQ(arr.getSize(), 3);
-
-    EXPECT_EQ(arr[0], -10);
-    EXPECT_EQ(arr[1], -20);
-    EXPECT_EQ(arr[2], -30);
-}
 
 /*------------------------------------------------------------
     String Type

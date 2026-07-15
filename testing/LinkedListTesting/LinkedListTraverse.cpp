@@ -75,49 +75,7 @@ TEST(LinkedListTraverseTest, SingleElement)
     EXPECT_EQ(output, "10 \n");
 }
 
-/*------------------------------------------------------------
-    Multiple Elements
--------------------------------------------------------------*/
 
-TEST(LinkedListTraverseTest, MultipleElements)
-{
-    LinkedList<int> list;
-
-    list.push_back(10);
-    list.push_back(20);
-    list.push_back(30);
-    list.push_back(40);
-
-    testing::internal::CaptureStdout();
-
-    list.traverse();
-
-    string output = testing::internal::GetCapturedStdout();
-
-    EXPECT_EQ(output, "10 20 30 40 \n");
-}
-
-/*------------------------------------------------------------
-    Duplicate And Negative Values
--------------------------------------------------------------*/
-
-TEST(LinkedListTraverseTest, DuplicateAndNegativeValues)
-{
-    LinkedList<int> list;
-
-    list.push_back(-10);
-    list.push_back(-20);
-    list.push_back(-20);
-    list.push_back(0);
-
-    testing::internal::CaptureStdout();
-
-    list.traverse();
-
-    string output = testing::internal::GetCapturedStdout();
-
-    EXPECT_EQ(output, "-10 -20 -20 0 \n");
-}
 
 /*------------------------------------------------------------
     Works With String

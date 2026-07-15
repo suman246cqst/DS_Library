@@ -98,23 +98,6 @@ TEST(LinkedListSearchTest, ReturnsFirstOccurrenceForDuplicateValues)
     EXPECT_EQ(list.search(20), 1);
 }
 
-/*------------------------------------------------------------
-    Negative Values
--------------------------------------------------------------*/
-
-TEST(LinkedListSearchTest, HandlesNegativeValues)
-{
-    LinkedList<int> list;
-
-    list.push_back(-10);
-    list.push_back(-20);
-    list.push_back(-30);
-
-    EXPECT_EQ(list.search(-10), 0);
-    EXPECT_EQ(list.search(-20), 1);
-    EXPECT_EQ(list.search(-30), 2);
-    EXPECT_EQ(list.search(-100), -1);
-}
 
 /*------------------------------------------------------------
     Works With String

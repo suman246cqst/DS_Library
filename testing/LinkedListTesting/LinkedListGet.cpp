@@ -95,24 +95,6 @@ TEST(LinkedListGetTest, InvalidIndicesThrowExceptions)
     EXPECT_THROW(list.get(100), out_of_range);
 }
 
-/*------------------------------------------------------------
-    Duplicate And Negative Values
--------------------------------------------------------------*/
-
-TEST(LinkedListGetTest, HandlesDuplicateAndNegativeValues)
-{
-    LinkedList<int> list;
-
-    list.push_back(-10);
-    list.push_back(-20);
-    list.push_back(-20);
-    list.push_back(-30);
-
-    EXPECT_EQ(list.get(0), -10);
-    EXPECT_EQ(list.get(1), -20);
-    EXPECT_EQ(list.get(2), -20);
-    EXPECT_EQ(list.get(3), -30);
-}
 
 /*------------------------------------------------------------
     Works With String

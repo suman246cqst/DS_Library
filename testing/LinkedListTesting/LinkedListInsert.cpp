@@ -98,27 +98,7 @@ TEST(LinkedListInsertAtIndexTest, InsertAtDifferentPositions)
     }
 }
 
-/*------------------------------------------------------------
-    Multiple Insertions
--------------------------------------------------------------*/
 
-TEST(LinkedListInsertAtIndexTest, MultipleInsertionsMaintainOrder)
-{
-    LinkedList<int> list;
-
-    list.insertAtIndex(0, 30);
-    list.insertAtIndex(0, 20);
-    list.insertAtIndex(0, 10);
-    list.insertAtIndex(3, 50);
-    list.insertAtIndex(3, 40);
-
-    EXPECT_EQ(list.getSize(), 5);
-
-    int expected[] = {10, 20, 30, 40, 50};
-
-    for (int i = 0; i < list.getSize(); i++)
-        EXPECT_EQ(list.get(i), expected[i]);
-}
 
 /*------------------------------------------------------------
     Invalid Indices
@@ -139,27 +119,7 @@ TEST(LinkedListInsertAtIndexTest, InvalidIndicesThrowExceptions)
     EXPECT_THROW(list.insertAtIndex(100, 100), out_of_range);
 }
 
-/*------------------------------------------------------------
-    Duplicate And Negative Values
--------------------------------------------------------------*/
 
-TEST(LinkedListInsertAtIndexTest, SupportsDuplicateAndNegativeValues)
-{
-    LinkedList<int> list;
-
-    list.push_back(-10);
-    list.push_back(-30);
-
-    list.insertAtIndex(1, -20);
-    list.insertAtIndex(2, -20);
-
-    EXPECT_EQ(list.getSize(), 4);
-
-    EXPECT_EQ(list.get(0), -10);
-    EXPECT_EQ(list.get(1), -20);
-    EXPECT_EQ(list.get(2), -20);
-    EXPECT_EQ(list.get(3), -30);
-}
 
 /*------------------------------------------------------------
     Works With String

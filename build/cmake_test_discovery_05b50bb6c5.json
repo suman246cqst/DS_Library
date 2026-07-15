@@ -1,10 +1,10 @@
 {
-  "tests": 122,
+  "tests": 97,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "LinkedListPushFrontTest",
-      "tests": 6,
+      "tests": 5,
       "testsuite": [
         {
           "name": "InsertIntoEmptyAndNonEmptyList",
@@ -17,30 +17,25 @@
           "line": 73
         },
         {
-          "name": "SupportsDuplicateAndNegativeValues",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPushFront.cpp",
-          "line": 93
-        },
-        {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPushFront.cpp",
-          "line": 117
+          "line": 94
         },
         {
           "name": "WorksWithCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPushFront.cpp",
-          "line": 137
+          "line": 114
         },
         {
           "name": "HandlesLargeNumberOfInsertions",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPushFront.cpp",
-          "line": 157
+          "line": 134
         }
       ]
     },
     {
       "name": "LinkedListPushBackTest",
-      "tests": 6,
+      "tests": 5,
       "testsuite": [
         {
           "name": "InsertIntoEmptyAndNonEmptyList",
@@ -53,24 +48,19 @@
           "line": 73
         },
         {
-          "name": "SupportsDuplicateAndNegativeValues",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPushBack.cpp",
-          "line": 91
-        },
-        {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPushBack.cpp",
-          "line": 113
+          "line": 94
         },
         {
           "name": "WorksWithCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPushBack.cpp",
-          "line": 133
+          "line": 114
         },
         {
           "name": "HandlesLargeNumberOfInsertions",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPushBack.cpp",
-          "line": 153
+          "line": 134
         }
       ]
     },
@@ -102,7 +92,7 @@
     },
     {
       "name": "LinkedListDestructorTest",
-      "tests": 6,
+      "tests": 4,
       "testsuite": [
         {
           "name": "DestroyEmptyList",
@@ -115,30 +105,20 @@
           "line": 22
         },
         {
-          "name": "DestroyMultipleNodeList",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListDestructor.cpp",
-          "line": 40
-        },
-        {
-          "name": "DestroyListAfterMixedOperations",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListDestructor.cpp",
-          "line": 61
-        },
-        {
           "name": "DestroyLargeList",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListDestructor.cpp",
-          "line": 86
+          "line": 42
         },
         {
           "name": "DestroyStringList",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListDestructor.cpp",
-          "line": 109
+          "line": 65
         }
       ]
     },
     {
       "name": "LinkedListCopyConstructorTest",
-      "tests": 7,
+      "tests": 6,
       "testsuite": [
         {
           "name": "CopyEmptyList",
@@ -151,81 +131,66 @@
           "line": 59
         },
         {
-          "name": "CopyMultipleElements",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListCopyConstructor.cpp",
-          "line": 75
-        },
-        {
           "name": "DeepCopyCreatesIndependentList",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListCopyConstructor.cpp",
-          "line": 94
+          "line": 77
         },
         {
           "name": "CopyRemainsValidAfterSourceIsDestroyed",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListCopyConstructor.cpp",
-          "line": 121
+          "line": 104
         },
         {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListCopyConstructor.cpp",
-          "line": 146
+          "line": 129
         },
         {
           "name": "WorksWithCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListCopyConstructor.cpp",
-          "line": 167
+          "line": 150
         }
       ]
     },
     {
       "name": "LinkedListCopyAssignmentTest",
-      "tests": 8,
+      "tests": 6,
       "testsuite": [
-        {
-          "name": "AssignEmptyToEmpty",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListCopyAssignment.cpp",
-          "line": 45
-        },
         {
           "name": "AssignNonEmptyToEmpty",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListCopyAssignment.cpp",
-          "line": 60
+          "line": 46
         },
         {
           "name": "AssignEmptyToNonEmpty",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListCopyAssignment.cpp",
-          "line": 81
-        },
-        {
-          "name": "AssignNonEmptyToNonEmpty",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListCopyAssignment.cpp",
-          "line": 101
+          "line": 67
         },
         {
           "name": "PerformsDeepCopy",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListCopyAssignment.cpp",
-          "line": 125
+          "line": 89
         },
         {
           "name": "SelfAssignment",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListCopyAssignment.cpp",
-          "line": 153
+          "line": 117
         },
         {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListCopyAssignment.cpp",
-          "line": 172
+          "line": 136
         },
         {
           "name": "WorksWithCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListCopyAssignment.cpp",
-          "line": 195
+          "line": 159
         }
       ]
     },
     {
       "name": "LinkedListGetSizeTest",
-      "tests": 9,
+      "tests": 3,
       "testsuite": [
         {
           "name": "EmptyList",
@@ -233,50 +198,20 @@
           "line": 11
         },
         {
-          "name": "SizeAfterPushFront",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetSize.cpp",
-          "line": 22
-        },
-        {
-          "name": "SizeAfterPushBack",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetSize.cpp",
-          "line": 37
-        },
-        {
-          "name": "SizeAfterPopFront",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetSize.cpp",
-          "line": 52
-        },
-        {
-          "name": "SizeAfterPopBack",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetSize.cpp",
-          "line": 70
-        },
-        {
-          "name": "SizeAfterInsertAndDelete",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetSize.cpp",
-          "line": 88
-        },
-        {
-          "name": "SizeAfterRemove",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetSize.cpp",
-          "line": 114
-        },
-        {
           "name": "SizeAfterMixedOperations",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetSize.cpp",
-          "line": 144
+          "line": 24
         },
         {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetSize.cpp",
-          "line": 174
+          "line": 54
         }
       ]
     },
     {
       "name": "LinkedListHeadTest",
-      "tests": 10,
+      "tests": 9,
       "testsuite": [
         {
           "name": "EmptyListReturnsNullptr",
@@ -299,40 +234,35 @@
           "line": 56
         },
         {
-          "name": "PopFrontUpdatesHead",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetHead.cpp",
-          "line": 74
-        },
-        {
           "name": "DeleteFirstNodeUpdatesHead",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetHead.cpp",
-          "line": 101
+          "line": 76
         },
         {
           "name": "RemoveFirstElementUpdatesHead",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetHead.cpp",
-          "line": 119
+          "line": 94
         },
         {
           "name": "CopyConstructorCreatesIndependentHead",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetHead.cpp",
-          "line": 138
+          "line": 113
         },
         {
           "name": "CopyAssignmentCreatesIndependentHead",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetHead.cpp",
-          "line": 157
+          "line": 132
         },
         {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGetHead.cpp",
-          "line": 180
+          "line": 155
         }
       ]
     },
     {
       "name": "LinkedListInsertAtIndexTest",
-      "tests": 7,
+      "tests": 5,
       "testsuite": [
         {
           "name": "InsertAtDifferentPositions",
@@ -340,40 +270,30 @@
           "line": 40
         },
         {
-          "name": "MultipleInsertionsMaintainOrder",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListInsert.cpp",
-          "line": 105
-        },
-        {
           "name": "InvalidIndicesThrowExceptions",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListInsert.cpp",
-          "line": 127
-        },
-        {
-          "name": "SupportsDuplicateAndNegativeValues",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListInsert.cpp",
-          "line": 146
+          "line": 107
         },
         {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListInsert.cpp",
-          "line": 168
+          "line": 128
         },
         {
           "name": "WorksWithCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListInsert.cpp",
-          "line": 188
+          "line": 148
         },
         {
           "name": "HandlesLargeNumberOfInsertions",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListInsert.cpp",
-          "line": 208
+          "line": 168
         }
       ]
     },
     {
       "name": "LinkedListPopFrontTest",
-      "tests": 8,
+      "tests": 7,
       "testsuite": [
         {
           "name": "PopFromDifferentSizedLists",
@@ -391,35 +311,30 @@
           "line": 79
         },
         {
-          "name": "HandlesDuplicateAndNegativeValues",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPopFront.cpp",
-          "line": 90
-        },
-        {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPopFront.cpp",
-          "line": 112
+          "line": 92
         },
         {
           "name": "WorksWithCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPopFront.cpp",
-          "line": 166
+          "line": 146
         },
         {
           "name": "HandlesLargeNumberOfElements",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPopFront.cpp",
-          "line": 186
+          "line": 166
         },
         {
           "name": "ConsecutivePopOperationsMaintainIntegrity",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPopFront.cpp",
-          "line": 209
+          "line": 189
         }
       ]
     },
     {
       "name": "LinkedListPopBackTest",
-      "tests": 8,
+      "tests": 7,
       "testsuite": [
         {
           "name": "PopFromDifferentSizedLists",
@@ -437,35 +352,30 @@
           "line": 108
         },
         {
-          "name": "HandlesDuplicateAndNegativeValues",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPopBack.cpp",
-          "line": 119
-        },
-        {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPopBack.cpp",
-          "line": 141
+          "line": 121
         },
         {
           "name": "WorksWithCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPopBack.cpp",
-          "line": 161
+          "line": 141
         },
         {
           "name": "HandlesLargeNumberOfElements",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPopBack.cpp",
-          "line": 181
+          "line": 161
         },
         {
           "name": "ConsecutivePopOperationsMaintainIntegrity",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListPopBack.cpp",
-          "line": 204
+          "line": 184
         }
       ]
     },
     {
       "name": "LinkedListDeleteAtIndexTest",
-      "tests": 8,
+      "tests": 6,
       "testsuite": [
         {
           "name": "DeleteAtDifferentPositions",
@@ -478,40 +388,30 @@
           "line": 96
         },
         {
-          "name": "DeleteAfterMultipleInsertions",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListDelete.cpp",
-          "line": 114
-        },
-        {
           "name": "InvalidIndicesThrowExceptions",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListDelete.cpp",
-          "line": 136
-        },
-        {
-          "name": "DeleteDuplicateAndNegativeValues",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListDelete.cpp",
-          "line": 154
+          "line": 115
         },
         {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListDelete.cpp",
-          "line": 176
+          "line": 134
         },
         {
           "name": "WorksWithCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListDelete.cpp",
-          "line": 196
+          "line": 154
         },
         {
           "name": "ConsecutiveDeletionsMaintainIntegrity",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListDelete.cpp",
-          "line": 216
+          "line": 174
         }
       ]
     },
     {
       "name": "LinkedListRemoveTest",
-      "tests": 9,
+      "tests": 8,
       "testsuite": [
         {
           "name": "RemoveFromDifferentPositions",
@@ -539,30 +439,25 @@
           "line": 149
         },
         {
-          "name": "HandlesNegativeValues",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListRemove.cpp",
-          "line": 173
-        },
-        {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListRemove.cpp",
-          "line": 195
+          "line": 174
         },
         {
           "name": "WorksWithCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListRemove.cpp",
-          "line": 217
+          "line": 196
         },
         {
           "name": "HandlesLargeNumberOfElements",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListRemove.cpp",
-          "line": 239
+          "line": 218
         }
       ]
     },
     {
       "name": "LinkedListGetTest",
-      "tests": 9,
+      "tests": 8,
       "testsuite": [
         {
           "name": "AccessElementsAtDifferentPositions",
@@ -585,35 +480,30 @@
           "line": 86
         },
         {
-          "name": "HandlesDuplicateAndNegativeValues",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGet.cpp",
-          "line": 102
-        },
-        {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGet.cpp",
-          "line": 121
+          "line": 103
         },
         {
           "name": "WorksWithCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGet.cpp",
-          "line": 138
+          "line": 120
         },
         {
           "name": "HandlesLargeNumberOfElements",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGet.cpp",
-          "line": 155
+          "line": 137
         },
         {
           "name": "AccessDoesNotModifyList",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListGet.cpp",
-          "line": 173
+          "line": 155
         }
       ]
     },
     {
       "name": "LinkedListSearchTest",
-      "tests": 9,
+      "tests": 8,
       "testsuite": [
         {
           "name": "SearchExistingElements",
@@ -636,35 +526,30 @@
           "line": 88
         },
         {
-          "name": "HandlesNegativeValues",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListSearch.cpp",
-          "line": 105
-        },
-        {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListSearch.cpp",
-          "line": 123
+          "line": 106
         },
         {
           "name": "WorksWithCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListSearch.cpp",
-          "line": 141
+          "line": 124
         },
         {
           "name": "HandlesLargeNumberOfElements",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListSearch.cpp",
-          "line": 159
+          "line": 142
         },
         {
           "name": "SearchDoesNotModifyList",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListSearch.cpp",
-          "line": 178
+          "line": 161
         }
       ]
     },
     {
       "name": "LinkedListTraverseTest",
-      "tests": 8,
+      "tests": 6,
       "testsuite": [
         {
           "name": "EmptyList",
@@ -677,34 +562,24 @@
           "line": 63
         },
         {
-          "name": "MultipleElements",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListTraverse.cpp",
-          "line": 82
-        },
-        {
-          "name": "DuplicateAndNegativeValues",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListTraverse.cpp",
-          "line": 104
-        },
-        {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListTraverse.cpp",
-          "line": 126
+          "line": 84
         },
         {
           "name": "WorksWithCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListTraverse.cpp",
-          "line": 147
+          "line": 105
         },
         {
           "name": "HandlesLargeNumberOfElements",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListTraverse.cpp",
-          "line": 168
+          "line": 126
         },
         {
           "name": "TraverseDoesNotModifyList",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/LinkedListTesting\/LinkedListTraverse.cpp",
-          "line": 195
+          "line": 153
         }
       ]
     }

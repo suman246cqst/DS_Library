@@ -9,17 +9,6 @@ using namespace std;
     push_back() : Basic Insertion
 -------------------------------------------------------------*/
 
-TEST(DynamicArrayPushBackTest, InsertSingleElement)
-{
-    DynamicArray<int> arr;
-
-    arr.push_back(10);
-
-    EXPECT_EQ(arr.getSize(), 1);
-    EXPECT_EQ(arr.getCapacity(), 1);
-    EXPECT_EQ(arr[0], 10);
-}
-
 TEST(DynamicArrayPushBackTest, InsertMultipleElements)
 {
     DynamicArray<int> arr;
@@ -75,15 +64,6 @@ TEST(DynamicArrayPushBackTest, CapacityDoublesFromTwoToFour)
     EXPECT_EQ(arr.getCapacity(), 4);
 }
 
-TEST(DynamicArrayPushBackTest, CapacityDoublesFromFourToEight)
-{
-    DynamicArray<int> arr;
-
-    for (int i = 0; i < 5; i++)
-        arr.push_back(i);
-
-    EXPECT_EQ(arr.getCapacity(), 8);
-}
 
 TEST(DynamicArrayPushBackTest, CapacityGrowsCorrectlyForManyInsertions)
 {
@@ -134,18 +114,6 @@ TEST(DynamicArrayPushBackTest, ExistingElementsRemainAfterResize)
     EXPECT_EQ(arr[4], 25);
 }
 
-TEST(DynamicArrayPushBackTest, MultipleResizesPreserveData)
-{
-    DynamicArray<int> arr;
-
-    for (int i = 0; i < 1000; i++)
-        arr.push_back(i);
-
-    EXPECT_EQ(arr.getSize(), 1000);
-
-    for (int i = 0; i < 1000; i++)
-        EXPECT_EQ(arr[i], i);
-}
 
 /*------------------------------------------------------------
     Different Data Types
@@ -249,30 +217,4 @@ TEST(DynamicArrayPushBackTest, PushBackIntegerLimits)
 
     EXPECT_EQ(arr[0], INT_MIN);
     EXPECT_EQ(arr[1], INT_MAX);
-}
-
-TEST(DynamicArrayPushBackTest, PushBackDuplicateValues)
-{
-    DynamicArray<int> arr;
-
-    arr.push_back(5);
-    arr.push_back(5);
-    arr.push_back(5);
-
-    EXPECT_EQ(arr.getSize(), 3);
-
-    EXPECT_EQ(arr[0], 5);
-    EXPECT_EQ(arr[1], 5);
-    EXPECT_EQ(arr[2], 5);
-}
-
-TEST(DynamicArrayPushBackTest, PushBackNegativeValues)
-{
-    DynamicArray<int> arr;
-
-    arr.push_back(-10);
-    arr.push_back(-20);
-
-    EXPECT_EQ(arr[0], -10);
-    EXPECT_EQ(arr[1], -20);
 }

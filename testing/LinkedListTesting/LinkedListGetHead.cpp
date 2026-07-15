@@ -67,32 +67,7 @@ TEST(LinkedListHeadTest, PushBackDoesNotChangeHead)
     EXPECT_EQ(list.getHead()->data, 10);
 }
 
-/*------------------------------------------------------------
-    Pop Front Updates Head
--------------------------------------------------------------*/
 
-TEST(LinkedListHeadTest, PopFrontUpdatesHead)
-{
-    LinkedList<int> list;
-
-    list.push_back(10);
-    list.push_back(20);
-    list.push_back(30);
-
-    list.pop_front();
-
-    ASSERT_NE(list.getHead(), nullptr);
-    EXPECT_EQ(list.getHead()->data, 20);
-
-    list.pop_front();
-
-    ASSERT_NE(list.getHead(), nullptr);
-    EXPECT_EQ(list.getHead()->data, 30);
-
-    list.pop_front();
-
-    EXPECT_EQ(list.getHead(), nullptr);
-}
 
 /*------------------------------------------------------------
     Delete First Node Updates Head

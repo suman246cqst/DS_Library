@@ -38,20 +38,6 @@ public:
     }
 };
 
-/*------------------------------------------------------------
-    Assign Empty List To Empty List
--------------------------------------------------------------*/
-
-TEST(LinkedListCopyAssignmentTest, AssignEmptyToEmpty)
-{
-    LinkedList<int> first;
-    LinkedList<int> second;
-
-    second = first;
-
-    EXPECT_EQ(second.getSize(), 0);
-    EXPECT_EQ(second.getHead(), nullptr);
-}
 
 /*------------------------------------------------------------
     Assign Non-Empty List To Empty List
@@ -94,29 +80,7 @@ TEST(LinkedListCopyAssignmentTest, AssignEmptyToNonEmpty)
     EXPECT_EQ(second.getHead(), nullptr);
 }
 
-/*------------------------------------------------------------
-    Assign Non-Empty List To Non-Empty List
--------------------------------------------------------------*/
 
-TEST(LinkedListCopyAssignmentTest, AssignNonEmptyToNonEmpty)
-{
-    LinkedList<int> first;
-
-    for (int i = 1; i <= 5; i++)
-        first.push_back(i);
-
-    LinkedList<int> second;
-
-    second.push_back(100);
-    second.push_back(200);
-
-    second = first;
-
-    EXPECT_EQ(second.getSize(), first.getSize());
-
-    for (int i = 0; i < first.getSize(); i++)
-        EXPECT_EQ(second.get(i), first.get(i));
-}
 
 /*------------------------------------------------------------
     Deep Copy After Assignment

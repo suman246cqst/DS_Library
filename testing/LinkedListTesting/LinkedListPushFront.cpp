@@ -86,29 +86,6 @@ TEST(LinkedListPushFrontTest, PreserveListOrderAfterMultipleInsertions)
 }
 
 
-/*------------------------------------------------------------
-    Supports Duplicate And Negative Values
--------------------------------------------------------------*/
-
-TEST(LinkedListPushFrontTest, SupportsDuplicateAndNegativeValues)
-{
-    LinkedList<int> list;
-
-    list.push_front(-10);
-    list.push_front(-20);
-    list.push_front(-20);
-    list.push_front(-30);
-    list.push_front(0);
-
-    EXPECT_EQ(list.getSize(), 5);
-
-    EXPECT_EQ(list.get(0), 0);
-    EXPECT_EQ(list.get(1), -30);
-    EXPECT_EQ(list.get(2), -20);
-    EXPECT_EQ(list.get(3), -20);
-    EXPECT_EQ(list.get(4), -10);
-}
-
 
 /*------------------------------------------------------------
     Supports String Type

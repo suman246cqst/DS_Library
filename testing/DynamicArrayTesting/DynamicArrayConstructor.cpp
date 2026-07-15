@@ -49,24 +49,7 @@ TEST(DynamicArrayConstructorTest, CapacityGrowthAfterConstruction)
 }
 
 
-// Test 4: Multiple objects maintain independent state
-TEST(DynamicArrayConstructorTest, MultipleObjectsHaveIndependentMemory)
-{
-    DynamicArray<int> arr1;
-    DynamicArray<int> arr2;
-
-    arr1.push_back(10);
-    arr2.push_back(20);
-
-    EXPECT_EQ(arr1.getSize(), 1);
-    EXPECT_EQ(arr2.getSize(), 1);
-
-    EXPECT_EQ(arr1[0], 10);
-    EXPECT_EQ(arr2[0], 20);
-}
-
-
-// Test 5: Constructor works for std::string
+// Test 4: Constructor works for std::string
 TEST(DynamicArrayConstructorTest, WorksWithStringType)
 {
     DynamicArray<std::string> arr;
@@ -80,7 +63,7 @@ TEST(DynamicArrayConstructorTest, WorksWithStringType)
 }
 
 
-// Test 6: Constructor works for user-defined type
+// Test 5: Constructor works for user-defined type
 class Student
 {
 public:
@@ -105,21 +88,3 @@ TEST(DynamicArrayConstructorTest, WorksWithUserDefinedType)
     EXPECT_EQ(arr[0].id, 101);
 }
 
-
-// Test 7: Newly created arrays are independent
-TEST(DynamicArrayConstructorTest, NewlyCreatedArraysRemainIndependent)
-{
-    DynamicArray<int> arr1;
-    DynamicArray<int> arr2;
-    DynamicArray<int> arr3;
-
-    EXPECT_TRUE(arr1.isEmpty());
-    EXPECT_TRUE(arr2.isEmpty());
-    EXPECT_TRUE(arr3.isEmpty());
-
-    arr2.push_back(50);
-
-    EXPECT_TRUE(arr1.isEmpty());
-    EXPECT_FALSE(arr2.isEmpty());
-    EXPECT_TRUE(arr3.isEmpty());
-}

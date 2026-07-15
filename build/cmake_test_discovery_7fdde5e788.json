@@ -1,5 +1,5 @@
 {
-  "tests": 94,
+  "tests": 81,
   "name": "AllTests",
   "testsuites": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "name": "DynamicArrayConstructorTest",
-      "tests": 7,
+      "tests": 5,
       "testsuite": [
         {
           "name": "DefaultConstructorInitialState",
@@ -48,24 +48,14 @@
           "line": 37
         },
         {
-          "name": "MultipleObjectsHaveIndependentMemory",
+          "name": "WorksWithStringType",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayConstructor.cpp",
           "line": 53
         },
         {
-          "name": "WorksWithStringType",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayConstructor.cpp",
-          "line": 70
-        },
-        {
           "name": "WorksWithUserDefinedType",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayConstructor.cpp",
-          "line": 96
-        },
-        {
-          "name": "NewlyCreatedArraysRemainIndependent",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayConstructor.cpp",
-          "line": 110
+          "line": 79
         }
       ]
     },
@@ -107,108 +97,83 @@
     },
     {
       "name": "DynamicArrayPushBackTest",
-      "tests": 19,
+      "tests": 14,
       "testsuite": [
         {
-          "name": "InsertSingleElement",
+          "name": "InsertMultipleElements",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
           "line": 12
         },
         {
-          "name": "InsertMultipleElements",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 23
-        },
-        {
           "name": "CapacityRemainsSameWhenNotFull",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 44
+          "line": 33
         },
         {
           "name": "CapacityDoublesFromOneToTwo",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 57
+          "line": 46
         },
         {
           "name": "CapacityDoublesFromTwoToFour",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 67
-        },
-        {
-          "name": "CapacityDoublesFromFourToEight",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 78
+          "line": 56
         },
         {
           "name": "CapacityGrowsCorrectlyForManyInsertions",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 88
+          "line": 68
         },
         {
           "name": "ElementsRemainInInsertionOrder",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 105
+          "line": 85
         },
         {
           "name": "ExistingElementsRemainAfterResize",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 120
-        },
-        {
-          "name": "MultipleResizesPreserveData",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 137
+          "line": 100
         },
         {
           "name": "PushBackString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 154
+          "line": 122
         },
         {
           "name": "PushBackCharacter",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 169
+          "line": 137
         },
         {
           "name": "PushBackDouble",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 182
+          "line": 150
         },
         {
           "name": "ArrayIsNotEmptyAfterInsertion",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 197
+          "line": 165
         },
         {
           "name": "ArrayBecomesFullAfterFirstInsertion",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 212
+          "line": 180
         },
         {
           "name": "ArrayRemainsFullAfterAutomaticResize",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 221
+          "line": 189
         },
         {
           "name": "PushBackIntegerLimits",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 243
-        },
-        {
-          "name": "PushBackDuplicateValues",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 254
-        },
-        {
-          "name": "PushBackNegativeValues",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPushBack.cpp",
-          "line": 269
+          "line": 211
         }
       ]
     },
     {
       "name": "DynamicArrayPopBackTest",
-      "tests": 13,
+      "tests": 9,
       "testsuite": [
         {
           "name": "PopSingleElement",
@@ -221,65 +186,45 @@
           "line": 28
         },
         {
-          "name": "PopElementsOneByOne",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPopBack.cpp",
-          "line": 48
-        },
-        {
           "name": "PopUntilEmpty",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPopBack.cpp",
-          "line": 72
+          "line": 49
         },
         {
           "name": "PopFromEmptyArrayThrows",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPopBack.cpp",
-          "line": 92
-        },
-        {
-          "name": "SizeDecreasesByOne",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPopBack.cpp",
-          "line": 103
-        },
-        {
-          "name": "CapacityDoesNotShrink",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPopBack.cpp",
-          "line": 122
+          "line": 69
         },
         {
           "name": "PopAfterMultipleResizes",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPopBack.cpp",
-          "line": 140
+          "line": 82
         },
         {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPopBack.cpp",
-          "line": 160
+          "line": 102
         },
         {
           "name": "WorksWithCharacter",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPopBack.cpp",
-          "line": 180
+          "line": 122
         },
         {
           "name": "PopAllElementsAfterLargeInsertion",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPopBack.cpp",
-          "line": 200
+          "line": 142
         },
         {
           "name": "AlternatePushAndPop",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPopBack.cpp",
-          "line": 223
-        },
-        {
-          "name": "LeaveSingleElementAfterMultiplePops",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayPopBack.cpp",
-          "line": 246
+          "line": 165
         }
       ]
     },
     {
       "name": "DynamicArrayDeleteAtIndexTest",
-      "tests": 8,
+      "tests": 7,
       "testsuite": [
         {
           "name": "DeleteAtDifferentPositions",
@@ -302,24 +247,19 @@
           "line": 139
         },
         {
-          "name": "DeleteDuplicateAndNegativeValues",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayDelete.cpp",
-          "line": 159
-        },
-        {
           "name": "WorksWithString",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayDelete.cpp",
-          "line": 181
+          "line": 160
         },
         {
           "name": "WorksWithCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayDelete.cpp",
-          "line": 201
+          "line": 180
         },
         {
           "name": "ConsecutiveDeletionsMaintainIntegrity",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayDelete.cpp",
-          "line": 221
+          "line": 200
         }
       ]
     },
@@ -408,7 +348,7 @@
     },
     {
       "name": "DynamicArrayAssignmentOperatorTest",
-      "tests": 6,
+      "tests": 5,
       "testsuite": [
         {
           "name": "AssignEmptyArrays",
@@ -431,14 +371,9 @@
           "line": 101
         },
         {
-          "name": "AssignmentAfterResize",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayCopyAssignment.cpp",
-          "line": 122
-        },
-        {
           "name": "WorksWithStringAndCustomObject",
           "file": "\/mnt\/c\/Users\/suman\/Desktop\/DS_Library\/testing\/DynamicArrayTesting\/DynamicArrayCopyAssignment.cpp",
-          "line": 144
+          "line": 122
         }
       ]
     },

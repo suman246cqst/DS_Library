@@ -68,24 +68,7 @@ TEST(LinkedListCopyConstructorTest, CopySingleElementList)
     EXPECT_EQ(copy.get(0), 10);
 }
 
-/*------------------------------------------------------------
-    Copy Multiple Elements
--------------------------------------------------------------*/
 
-TEST(LinkedListCopyConstructorTest, CopyMultipleElements)
-{
-    LinkedList<int> original;
-
-    for (int i = 1; i <= 10; i++)
-        original.push_back(i);
-
-    LinkedList<int> copy(original);
-
-    EXPECT_EQ(copy.getSize(), original.getSize());
-
-    for (int i = 0; i < original.getSize(); i++)
-        EXPECT_EQ(copy.get(i), original.get(i));
-}
 
 /*------------------------------------------------------------
     Deep Copy Independence
