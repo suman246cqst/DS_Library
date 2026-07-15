@@ -122,17 +122,29 @@ The command-processing loop continues until the user enters the `EXIT` command.
 
 ## `string toLower(const string& str)`
 
-The `toLower()` function converts the command name into lowercase characters before command validation.
+The `toLower()` function converts all uppercase alphabetic characters in the supplied string into lowercase characters.
 
-Only the command keyword is normalized, while keys and values remain unchanged. This allows Redis Lite to support case-insensitive commands without modifying user data.
+During command processing, this function is applied to every token extracted from the user's input. Consequently, the command name, keys, and values are all converted into lowercase before further processing, making Redis Lite completely case-insensitive.
+
+For example,
+
+```text
+SET Name Suman
+```
+
+is internally processed as
+
+```text
+set name suman
+```
 
 ### Parameters
 
-- **`const string& str`** : Command entered by the user.
+- **`const string& str`** : A token extracted from the user's command.
 
 ### Return Type
 
-- **`string`** : Lowercase representation of the command.
+- **`string`** : The lowercase representation of the input string.
 
 ### Exception Conditions
 
@@ -144,7 +156,7 @@ Only the command keyword is normalized, while keys and values remain unchanged. 
 - **Average Case:** `O(m)`
 - **Worst Case:** `O(m)`
 
-where **`m`** is the length of the command string.
+where **`m`** is the length of the input string.
 
 ---
 
@@ -238,7 +250,7 @@ Every command entered by the user passes through the following stages before exe
 User
    │
    ▼
-Command Line Interface → getline() → stringstream → Token Vector → toLower() → Command Validation → Private Member Function → HashMap → Formatted Output
+Command Line Interface → getline() → stringstream → Token → toLower() → Token Vector → Command Validation → Private Member Function → HashMap → Formatted Output
 ```
 
 ---
@@ -381,31 +393,27 @@ Using `HashMap<string, string>` provides a simple and consistent storage model b
 
 ---
 
-## Design Decision 4: Case-Insensitive Command Recognition
+## Design Decision 4: Case-Insensitive Input Processing
 
 ### Selected Design
 
-Only the command name is converted into lowercase before validation.
+Every token extracted from the user's input is converted into lowercase before processing.
 
-Example:
+For example,
 
-```text
-SET
-Set
-sEt
-set
-```
+SET Name Suman
 
-are all interpreted as the same command.
+↓
+
+set name suman
 
 ### Alternative Considered
 
-Treating commands as case-sensitive.
+Treating commands and user input as case-sensitive.
 
 ### Reason for Selection
 
-Case-insensitive commands improve usability while preserving the original capitalization of user keys and values.
-
+Converting all input tokens into lowercase simplifies command processing and ensures consistent handling of commands, keys, and values regardless of the capitalization used by the user.
 ---
 
 ## Design Decision 5: Separation of Command Processing and Data Storage

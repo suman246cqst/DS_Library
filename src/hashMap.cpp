@@ -1,3 +1,4 @@
+#include <iomanip>
 #include "../include/hashMap.h"
 using namespace std;
 
@@ -237,5 +238,19 @@ void HashMap<K,V>::printBuckets() {
             bucketArray[i]->traverse();
         }
         cout << endl;
+    }
+}
+template<typename K, typename V>
+void HashMap<K,V>::showAll() const{
+    cout << left<< setw(20) << "Key"<< "Value" << endl;
+    cout << string(35, '-') << endl;
+    for(int i = 0; i < capacity; i++){
+        if(bucketArray[i] != nullptr){
+            Node<HashNode<K,V>>* temp = bucketArray[i]->getHead();
+            while(temp != nullptr){
+                cout << left<< setw(20) << temp->data.key<< temp->data.value<< endl;
+                temp = temp->next;
+            }
+        }
     }
 }

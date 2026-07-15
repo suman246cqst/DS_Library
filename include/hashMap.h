@@ -64,6 +64,7 @@ public:
     float getLoadFactor();
     void clear();
     void printBuckets();
+    void showAll() const;
 };
 
 #include "../src/hashMap.cpp"
