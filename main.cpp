@@ -1,3 +1,20 @@
+#include<iostream>
+#include "include/hashMap.h"
+using namespace std;
+int main(){
+    HashMap<int,int>m(3);
+    int k1=3;
+    int v1=9;
+    m.insert(k1,v1);
+    
+    int k2=6;
+    int v2=33;
+    m.insert(k2,v2);
+    cout<<m.getMaxLength()<<endl;
+
+    return 0;
+}
+
 // #include<iostream>
 // #include "include/hashMap.h"
 // using namespace std;
@@ -229,10 +246,10 @@
 // }
 
 
-#include<iostream>
-#include "src/redisLite.cpp"
-int main(){
-    RedisLite redis;
-    redis.run();
-    return 0;
-}
+// #include<iostream>
+// #include "src/redisLite.cpp"
+// int main(){
+//     RedisLite redis;
+//     redis.run();
+//     return 0;
+// }

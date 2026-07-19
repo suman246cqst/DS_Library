@@ -16,6 +16,7 @@ class LinkedList{
 private:
     int size;
     Node<T>* head;
+    Node<T>* tail;
 public:
     LinkedList();
     ~LinkedList();

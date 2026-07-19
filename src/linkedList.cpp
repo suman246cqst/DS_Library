@@ -4,6 +4,7 @@ using namespace std;
 template<typename T>
 LinkedList<T>::LinkedList() {
     head = nullptr;
+    tail = nullptr;
     size = 0;
 }
 
@@ -17,11 +18,13 @@ LinkedList<T>::~LinkedList() {
         free(temp);
     }
     head = nullptr;
+    tail = nullptr;
     size = 0;
 }
 template<typename T>
 LinkedList<T>::LinkedList(const LinkedList<T>& other) {
     head = nullptr;
+    tail = nullptr;
     size = 0;
 
     Node<T>* temp = other.head;
@@ -43,6 +46,7 @@ LinkedList<T>& LinkedList<T>::operator=(const LinkedList<T>& other) {
         free(temp);
     }
     head = nullptr;
+    tail = nullptr;
     size = 0;
     Node<T>* temp = other.head;
     while (temp != nullptr) {
@@ -60,6 +64,9 @@ void LinkedList<T>::push_front(const T& val) {
     new (&newNode->data) T(val);
     newNode->next = head;
     head = newNode;
+    if(head->next==nullptr){
+        tail=head;
+    }
     size++;
 }
 template<typename T>
@@ -72,14 +79,12 @@ void LinkedList<T>::push_back(const T& val) {
     newNode->next = nullptr;
     if (head == nullptr) {
         head = newNode;
+        tail = newNode;
         size++;
         return;
     }
-    Node<T>* temp = head;
-    while (temp->next != nullptr) {
-        temp = temp->next;
-    }
-    temp->next = newNode;
+    tail->next=newNode;
+    tail=newNode;
     size++;
 }
 template<typename T>
@@ -89,6 +94,9 @@ void LinkedList<T>::pop_front() {
     }
     Node<T>* temp = head;
     head = head->next;
+    if(head==nullptr){
+        tail=nullptr;
+    }
     temp->data.~T();
     free(temp);
     size--;
@@ -102,6 +110,7 @@ void LinkedList<T>::pop_back() {
         head->data.~T();
         free(head);
         head = nullptr;
+        tail = nullptr;
         size--;
         return;
     }
@@ -111,6 +120,7 @@ void LinkedList<T>::pop_back() {
     }
     Node<T>* last = temp->next;
     temp->next = nullptr;
+    tail=temp;
     last->data.~T();
     free(last);
     size--;
@@ -235,6 +245,9 @@ void LinkedList<T>::remove(T& val){
         Node<T>* temp=head;
         if(head->data==val){
             head=head->next;
+            if (head == nullptr) {
+                tail = nullptr;
+            }
             temp->data.~T();
             free(temp);
             size--;
@@ -251,6 +264,9 @@ void LinkedList<T>::remove(T& val){
             temp->next=temp1->next;
             temp1->data.~T();
             free(temp1);
+            if(temp->next==nullptr){
+                tail=temp;
+            }
             size--;
             return;
         }

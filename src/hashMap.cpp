@@ -37,6 +37,16 @@ HashMap<K,V>::HashMap(){
     }
 }
 template<typename K, typename V>
+HashMap<K,V>::HashMap(int cap){
+    size=0;
+    capacity=cap;
+    loadfactor=0.0;
+    threshold=0.70;
+    for(int i=0;i<capacity;i++){
+        bucketArray.push_back(nullptr);
+    }
+}
+template<typename K, typename V>
 HashMap<K,V>::~HashMap(){
     clear();
 }
@@ -253,4 +263,16 @@ void HashMap<K,V>::showAll() const{
             }
         }
     }
+}
+
+template<typename K,typename V>
+int HashMap<K,V>::getMaxLength(){
+    int ans=0;
+    for(int i=0;i<capacity;i++){
+        if(bucketArray[i]!=nullptr){
+            cout<<bucketArray[i]->getSize()<<endl;
+            ans=max(bucketArray[i]->getSize(),ans);
+        }
+    }
+    return ans;
 }

@@ -36,6 +36,7 @@ private:
 
 public:
     HashMap();
+    HashMap(int cap);
     ~HashMap();
     HashMap(const HashMap<K,V>& other);
     HashMap<K,V>& operator=(const HashMap<K,V>& other);
@@ -50,6 +51,7 @@ public:
     void clear();
     void printBuckets();
     void showAll() const;
+    int getMaxLength();
 };
 
 #include "../src/hashMap.cpp"
